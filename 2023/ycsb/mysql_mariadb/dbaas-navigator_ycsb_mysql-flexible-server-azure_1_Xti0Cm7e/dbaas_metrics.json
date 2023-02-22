@@ -1,0 +1,841 @@
+{
+  "cost": 944,
+  "interval": "0:15:00",
+  "namespace": "Microsoft.DBforMySQL/flexibleServers",
+  "resourceregion": "eastus",
+  "timespan": "2023-02-06T18:03:04Z/2023-02-06T19:03:04Z",
+  "value": [
+    {
+      "displayDescription": "Host CPU Percent",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/cpu_percent",
+      "name": {
+        "localizedValue": "Host CPU Percent",
+        "value": "cpu_percent"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 29.25,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 32.39,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 37.51,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 37.75,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Percent"
+    },
+    {
+      "displayDescription": "Host Memory Percent",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/memory_percent",
+      "name": {
+        "localizedValue": "Host Memory Percent",
+        "value": "memory_percent"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 89.34,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 90.26,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 90.42,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 90.51,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Percent"
+    },
+    {
+      "displayDescription": "Host Network egress in bytes",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/network_bytes_egress",
+      "name": {
+        "localizedValue": "Host Network Out",
+        "value": "network_bytes_egress"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": 76624737244.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": 76539301204.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": 71752930333.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": 79882349862.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Bytes"
+    },
+    {
+      "displayDescription": "Host Network ingress in bytes",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/network_bytes_ingress",
+      "name": {
+        "localizedValue": "Host Network In",
+        "value": "network_bytes_ingress"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": 25287239648.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": 26788929396.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": 19252323973.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": 24101310622.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Bytes"
+    },
+    {
+      "displayDescription": "Active Connections",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/active_connections",
+      "name": {
+        "localizedValue": "Active Connections",
+        "value": "active_connections"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 110.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 110.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 110.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 110.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "Queries",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/Queries",
+      "name": {
+        "localizedValue": "Queries",
+        "value": "Queries"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": 2138649.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": 2134250.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": 3375304.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": 3484660.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "IO Percent",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/io_consumption_percent",
+      "name": {
+        "localizedValue": "IO Percent",
+        "value": "io_consumption_percent"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 109.18,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 112.27,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 105.7,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 107.65,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Percent"
+    },
+    {
+      "displayDescription": "The number of I/O consumed.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/storage_io_count",
+      "name": {
+        "localizedValue": "IO Count",
+        "value": "storage_io_count"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "Storage Percent",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/storage_percent",
+      "name": {
+        "localizedValue": "Storage Percent",
+        "value": "storage_percent"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 9.56,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 12.06,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 13.86,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 15.27,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Percent"
+    },
+    {
+      "displayDescription": "Storage Used",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/storage_used",
+      "name": {
+        "localizedValue": "Storage Used",
+        "value": "storage_used"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 105150336475.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 132552189047.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 152389055213.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 167856327456.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Bytes"
+    },
+    {
+      "displayDescription": "Storage throttle count.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/storage_throttle_count",
+      "name": {
+        "localizedValue": "Storage Throttle Count",
+        "value": "storage_throttle_count"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 0.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 0.0,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of queries that have taken more than long_query_time seconds.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/Slow_queries",
+      "name": {
+        "localizedValue": "Slow Queries",
+        "value": "Slow_queries"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": 0.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of logical reads that InnoDB could not satisfy from the buffer pool, and had to read directly from disk.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/Innodb_buffer_pool_reads",
+      "name": {
+        "localizedValue": "InnoDB Buffer Pool Reads",
+        "value": "Innodb_buffer_pool_reads"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": 2556.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": 91176.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": 78828.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": 85230.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of logical read requests.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/Innodb_buffer_pool_read_requests",
+      "name": {
+        "localizedValue": "InnoDB Buffer Pool Read Requests",
+        "value": "Innodb_buffer_pool_read_requests"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": 55632100.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": 55484886.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": 55231251.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": 58684729.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of free pages in the InnoDB buffer pool.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/Innodb_buffer_pool_pages_free",
+      "name": {
+        "localizedValue": "InnoDB Buffer Pool Pages Free",
+        "value": "Innodb_buffer_pool_pages_free"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": 7941165.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": 241263.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": 234571.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": 234662.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of pages in the InnoDB buffer pool containing data.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4/providers/Microsoft.Insights/metrics/Innodb_buffer_pool_pages_data",
+      "name": {
+        "localizedValue": "InnoDB Buffer Pool Pages Data",
+        "value": "Innodb_buffer_pool_pages_data"
+      },
+      "resourceGroup": "benchANT-eastus",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:03:00+00:00",
+              "total": 86422245.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:18:00+00:00",
+              "total": 94122146.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:33:00+00:00",
+              "total": 90983391.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-02-06T18:48:00+00:00",
+              "total": 90983300.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    }
+  ]
+}

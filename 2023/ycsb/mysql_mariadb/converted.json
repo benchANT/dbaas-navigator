@@ -1,0 +1,256 @@
+[
+    {
+        "dbaasProvider": "AZUREMARIADB",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "AZURE",
+                "dbmsType": "MARIADB",
+                "properties": [
+                    {
+                        "featureData": 5738,
+                        "featureKey": "throughput",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 3.3,
+                        "featureKey": "readLatency",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 64,
+                        "featureKey": "writeLatency",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 4.2,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 3.6,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 2.1,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 5.75,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 997.01,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dbaasProvider": "AWSRDS",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "EC2",
+                "dbmsType": "MARIADB",
+                "properties": [
+                    {
+                        "featureData": 8863,
+                        "featureKey": "throughput",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 3.6,
+                        "featureKey": "readLatency",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 35,
+                        "featureKey": "writeLatency",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 2.7,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 3.3,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 1.3,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 4.4,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 2013.69,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 3
+                    }
+                ]
+            },
+            {
+                "iaasProvider": "EC2",
+                "dbmsType": "MYSQL",
+                "properties": [
+                    {
+                        "featureData": 5409,
+                        "featureKey": "throughput",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 6.2,
+                        "featureKey": "readLatency",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 63,
+                        "featureKey": "writeLatency",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 3.3,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 18.8,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 4.4,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 2.69,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 2013.69,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dbaasProvider": "AZUREMYSQL",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "AZURE",
+                "dbmsType": "MYSQL",
+                "properties": [
+                    {
+                        "featureData": 3870,
+                        "featureKey": "throughput",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 7.3,
+                        "featureKey": "readLatency",
+                        "featureScore": 1
+                    },
+                    {
+                        "featureData": 96,
+                        "featureKey": "writeLatency",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 1.7,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.9,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 2.0,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 1.96,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 1978.83,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dbaasProvider": "SCALEGRID",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "EC2",
+                "dbmsType": "MYSQL",
+                "properties": [
+                    {
+                        "featureData": 8302,
+                        "featureKey": "throughput",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 6.0,
+                        "featureKey": "readLatency",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 42,
+                        "featureKey": "writeLatency",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 2.4,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 14.4,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 5.3,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 2.94,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 2828.4,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

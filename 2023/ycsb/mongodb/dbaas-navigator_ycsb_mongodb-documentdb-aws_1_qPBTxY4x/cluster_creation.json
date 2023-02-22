@@ -1,0 +1,61 @@
+{
+    "DBClusters": [
+        {
+            "AvailabilityZones": [
+                "us-west-2c",
+                "us-west-2a",
+                "us-west-2b"
+            ],
+            "BackupRetentionPeriod": 1,
+            "DBClusterIdentifier": "dbaas-navigator-9c1ff8c3-980e-5900-99f1-395e9ba19cb2",
+            "DBClusterParameterGroup": "benchant4-0",
+            "DBSubnetGroup": "default",
+            "Status": "available",
+            "EarliestRestorableTime": "2023-01-09T11:52:29.801000+00:00",
+            "Endpoint": "dbaas-navigator-9c1ff8c3-980e-5900-99f1-395e9ba19cb2.cluster-cdwm6pzxjgvr.us-west-2.docdb.amazonaws.com",
+            "ReaderEndpoint": "dbaas-navigator-9c1ff8c3-980e-5900-99f1-395e9ba19cb2.cluster-ro-cdwm6pzxjgvr.us-west-2.docdb.amazonaws.com",
+            "MultiAZ": false,
+            "Engine": "docdb",
+            "EngineVersion": "4.0.0",
+            "LatestRestorableTime": "2023-01-09T11:52:29.801000+00:00",
+            "Port": 27017,
+            "MasterUsername": "root",
+            "PreferredBackupWindow": "11:28-11:58",
+            "PreferredMaintenanceWindow": "wed:07:14-wed:07:44",
+            "ReadReplicaIdentifiers": [],
+            "DBClusterMembers": [
+                {
+                    "DBInstanceIdentifier": "dbaas-navigator-9c1ff8c3-980e-5900-99f1-395e9ba19cb2-instance-2",
+                    "IsClusterWriter": false,
+                    "DBClusterParameterGroupStatus": "in-sync",
+                    "PromotionTier": 1
+                },
+                {
+                    "DBInstanceIdentifier": "dbaas-navigator-9c1ff8c3-980e-5900-99f1-395e9ba19cb2-instance-1",
+                    "IsClusterWriter": false,
+                    "DBClusterParameterGroupStatus": "in-sync",
+                    "PromotionTier": 1
+                },
+                {
+                    "DBInstanceIdentifier": "dbaas-navigator-9c1ff8c3-980e-5900-99f1-395e9ba19cb2-instance-3",
+                    "IsClusterWriter": false,
+                    "DBClusterParameterGroupStatus": "in-sync",
+                    "PromotionTier": 1
+                }
+            ],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-30066740",
+                    "Status": "active"
+                }
+            ],
+            "HostedZoneId": "Z9PSE6HRXLC6K",
+            "StorageEncrypted": false,
+            "DbClusterResourceId": "cluster-KY3SRCI4VP3726O2ACO7WTTGSM",
+            "DBClusterArn": "arn:aws:rds:us-west-2:584241909684:cluster:dbaas-navigator-9c1ff8c3-980e-5900-99f1-395e9ba19cb2",
+            "AssociatedRoles": [],
+            "ClusterCreateTime": "2023-01-09T11:51:16.835000+00:00",
+            "DeletionProtection": false
+        }
+    ]
+}

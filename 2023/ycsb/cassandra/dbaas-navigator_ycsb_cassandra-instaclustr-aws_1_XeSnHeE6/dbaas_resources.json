@@ -1,0 +1,76 @@
+{
+    "cassandraVersion": "4.0.4",
+    "currentClusterOperationStatus": "NO_OPERATION",
+    "dataCentres": [
+        {
+            "awsSettings": [
+                {
+                    "customVirtualNetworkId": null,
+                    "ebsEncryptionKey": null
+                }
+            ],
+            "azureSettings": [],
+            "clientToClusterEncryption": false,
+            "cloudProvider": "AWS_VPC",
+            "continuousBackup": false,
+            "gcpSettings": [],
+            "id": "147654e7-8af5-4682-8bd0-1a955e773297",
+            "name": "benchANT-dc-dae097b5",
+            "network": "10.0.0.0/16",
+            "nodeSize": "CAS-PRD-r6g.2xlarge-2400",
+            "nodes": [
+                {
+                    "id": "217e4132-975b-4ec8-b9a8-8f8381b2f91b",
+                    "nodeRoles": [
+                        "CASSANDRA"
+                    ],
+                    "nodeSize": "CAS-PRD-r6g.2xlarge-2400",
+                    "privateAddress": "10.0.3.8",
+                    "publicAddress": "54.241.168.228",
+                    "rack": "us-west-1b",
+                    "status": "RUNNING"
+                },
+                {
+                    "id": "fb49bd8d-cf75-4d6a-a09a-091f340d3f52",
+                    "nodeRoles": [
+                        "CASSANDRA"
+                    ],
+                    "nodeSize": "CAS-PRD-r6g.2xlarge-2400",
+                    "privateAddress": "10.0.94.146",
+                    "publicAddress": "52.52.126.133",
+                    "rack": "us-west-1c",
+                    "status": "RUNNING"
+                },
+                {
+                    "id": "a94a025c-c833-4e90-8ad7-3d9cc3ec0b2f",
+                    "nodeRoles": [
+                        "CASSANDRA"
+                    ],
+                    "nodeSize": "CAS-PRD-r6g.2xlarge-2400",
+                    "privateAddress": "10.0.44.188",
+                    "publicAddress": "13.52.87.106",
+                    "rack": "us-west-1b",
+                    "status": "RUNNING"
+                }
+            ],
+            "numberOfNodes": 3,
+            "privateIpBroadcastForDiscovery": true,
+            "providerAccountName": "INSTACLUSTR",
+            "region": "US_WEST_1",
+            "replicationFactor": 2,
+            "status": "RUNNING",
+            "tags": []
+        }
+    ],
+    "defaultUserPassword": "bfcabb9d6f7efcdca8c3540a88dd0ff8",
+    "id": "6c11e1ee-85d6-4d6e-9448-675c78cd190d",
+    "luceneEnabled": false,
+    "name": "benchANT-cluster-d48a18b6",
+    "passwordAndUserAuth": true,
+    "pciComplianceMode": false,
+    "privateNetworkCluster": false,
+    "slaTier": "PRODUCTION",
+    "spark": [],
+    "status": "RUNNING",
+    "twoFactorDelete": []
+}

@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "userId": "benchANT",
+    "projectId": "dbaas-navigator",
+    "batchId": "ycsb",
+    "configurationId": "mysql-flexible-server-azure",
+    "configurationLabel": "mysql-flexible-server-azure",
+    "executions": 2,
+    "executionCounter": 2
+  },
+  "resourceProvider": {
+    "name": "AZURE",
+    "api": "AZURE"
+  },
+  "dbaasProvider": {
+    "name": "AZUREMYSQL",
+    "api": "AZUREMYSQL"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "MYSQL",
+    "operationType": "DBAAS",
+    "version": "8.0.21",
+    "DBAAS": {
+      "costs": {
+        "storageCosts": 0.0,
+        "vmCosts": 1978.83
+      },
+      "azureMysqlInstance": {
+        "region": "eastus",
+        "skuName": "Standard_E8ds_v4",
+        "skuTier": "MemoryOptimized",
+        "storageSize": 1024,
+        "highAvailability": "SameZone"
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 1,
+      "resource": {
+        "azureVm": {
+          "region": "eastus",
+          "availabilityZone": 1,
+          "imagePublisher": "Canonical",
+          "imageOffer": "0001-com-ubuntu-server-focal",
+          "imageSku": "20_04-lts",
+          "vmSize": "Standard_D16s_v5",
+          "diskType": "Standard_LRS",
+          "diskSize": 50
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "YCSB-Read-Write-Mix",
+    "distribution": "YCSB",
+    "version": "0.17.0",
+    "ycsb": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadType": "LOAD",
+        "workloadClass": "site.ycsb.workloads.CoreWorkload",
+        "maxExecutionTime": 1800,
+        "threadCount": 100,
+        "recordCount": 10000000,
+        "insertStart": 10000000,
+        "insertCount": 0,
+        "operations": 54000000,
+        "targetOps": 0,
+        "fieldCount": 10,
+        "fieldLength": 500,
+        "readAllFileds": true,
+        "readModifyWriteProportion": 0,
+        "requestdistribution": "ZIPFIAN",
+        "scanLengthDistribution": "UNIFORM",
+        "insertOrder": "ORDERED",
+        "readProportion": 0.5,
+        "updateProportion": 0.0,
+        "insertProportion": 0.5,
+        "scanProportion": 0.0,
+        "maxScanLength": 0,
+        "coreWorkloadInsertionRetryLimit": 3,
+        "coreWorkloadInsertionRetryInterval": 3,
+        "batchSize": 1
+      }
+    }
+  }
+}

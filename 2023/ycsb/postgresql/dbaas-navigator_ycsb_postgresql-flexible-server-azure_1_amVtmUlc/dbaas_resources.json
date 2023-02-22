@@ -1,0 +1,67 @@
+{
+  "administratorLogin": "benchant",
+  "administratorLoginPassword": null,
+  "authConfig": {
+    "activeDirectoryAuthEnabled": false,
+    "passwordAuthEnabled": null,
+    "tenantId": null
+  },
+  "availabilityZone": null,
+  "backup": {
+    "backupRetentionDays": 7,
+    "earliestRestoreDate": "2023-01-11T18:30:19.367999+00:00",
+    "geoRedundantBackup": "Disabled"
+  },
+  "createMode": null,
+  "dataEncryption": {
+    "primaryKeyUri": null,
+    "primaryUserAssignedIdentityId": null,
+    "type": "SystemManaged"
+  },
+  "fullyQualifiedDomainName": "benchant-3a0d8ba4-2732-54fc-b434-0e3d3ba198b9.postgres.database.azure.com",
+  "highAvailability": {
+    "mode": "SameZone",
+    "standbyAvailabilityZone": null,
+    "state": "Healthy"
+  },
+  "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.DBforPostgreSQL/flexibleServers/benchant-3a0d8ba4-2732-54fc-b434-0e3d3ba198b9",
+  "identity": null,
+  "location": "West US",
+  "maintenanceWindow": {
+    "customWindow": "Disabled",
+    "dayOfWeek": 0,
+    "startHour": 0,
+    "startMinute": 0
+  },
+  "minorVersion": "5",
+  "name": "benchant-3a0d8ba4-2732-54fc-b434-0e3d3ba198b9",
+  "network": {
+    "delegatedSubnetResourceId": null,
+    "privateDnsZoneArmResourceId": null,
+    "publicNetworkAccess": "Enabled"
+  },
+  "pointInTimeUtc": null,
+  "replicaCapacity": 5,
+  "replicationRole": "Primary",
+  "resourceGroup": "benchANT-westus",
+  "sku": {
+    "name": "Standard_E8ds_v4",
+    "tier": "MemoryOptimized"
+  },
+  "sourceServerResourceId": null,
+  "state": "Ready",
+  "storage": {
+    "storageSizeGb": 1024
+  },
+  "systemData": {
+    "createdAt": "2023-01-11T18:26:09.244517+00:00",
+    "createdBy": null,
+    "createdByType": null,
+    "lastModifiedAt": null,
+    "lastModifiedBy": null,
+    "lastModifiedByType": null
+  },
+  "tags": null,
+  "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+  "version": "14"
+}

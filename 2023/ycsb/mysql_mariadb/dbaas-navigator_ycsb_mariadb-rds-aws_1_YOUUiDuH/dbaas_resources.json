@@ -1,0 +1,96 @@
+{
+    "activity_stream_status": "stopped",
+    "allocated_storage": 1000,
+    "associated_roles": [],
+    "auto_minor_version_upgrade": true,
+    "availability_zone": "us-west-1c",
+    "backup_retention_period": 1,
+    "backup_target": "region",
+    "ca_certificate_identifier": "rds-ca-2019",
+    "certificate_details": {
+        "ca_identifier": "rds-ca-2019",
+        "valid_till": "2024-08-22T17:08:50+00:00"
+    },
+    "changed": true,
+    "copy_tags_to_snapshot": false,
+    "customer_owned_ip_enabled": false,
+    "db_instance_arn": "arn:aws:rds:us-west-1:584241909684:db:benchant-rds-mariadb-15b26a44-4e0b-570a-aaa7-c82c5f298491",
+    "db_instance_class": "db.r5.2xlarge",
+    "db_instance_identifier": "benchant-rds-mariadb-15b26a44-4e0b-570a-aaa7-c82c5f298491",
+    "db_instance_port": 0,
+    "db_instance_status": "available",
+    "db_name": "benchdb",
+    "db_parameter_groups": [
+        {
+            "db_parameter_group_name": "default.mariadb10.6",
+            "parameter_apply_status": "in-sync"
+        }
+    ],
+    "db_security_groups": [],
+    "db_subnet_group": {
+        "db_subnet_group_description": "default",
+        "db_subnet_group_name": "default",
+        "subnet_group_status": "Complete",
+        "subnets": [
+            {
+                "subnet_availability_zone": {
+                    "name": "us-west-1c"
+                },
+                "subnet_identifier": "subnet-5773290c",
+                "subnet_outpost": {},
+                "subnet_status": "Active"
+            },
+            {
+                "subnet_availability_zone": {
+                    "name": "us-west-1a"
+                },
+                "subnet_identifier": "subnet-b7e3edd0",
+                "subnet_outpost": {},
+                "subnet_status": "Active"
+            }
+        ],
+        "vpc_id": "vpc-14623073"
+    },
+    "dbi_resource_id": "db-IRTWULIHW776EYEG7WGTMHPQIA",
+    "deletion_protection": false,
+    "domain_memberships": [],
+    "endpoint": {
+        "address": "benchant-rds-mariadb-15b26a44-4e0b-570a-aaa7-c82c5f298491.ct680r8vyzqj.us-west-1.rds.amazonaws.com",
+        "hosted_zone_id": "Z10WI91S59XXQN",
+        "port": 3306
+    },
+    "engine": "mariadb",
+    "engine_version": "10.6.10",
+    "failed": false,
+    "iam_database_authentication_enabled": false,
+    "instance_create_time": "2023-02-03T09:41:42.896000+00:00",
+    "latest_restorable_time": "2023-02-03T09:52:20.282000+00:00",
+    "license_model": "general-public-license",
+    "master_username": "benchant",
+    "monitoring_interval": 0,
+    "multi_az": true,
+    "network_type": "IPV4",
+    "option_group_memberships": [
+        {
+            "option_group_name": "default:mariadb-10-6",
+            "status": "in-sync"
+        }
+    ],
+    "pending_modified_values": {},
+    "performance_insights_enabled": false,
+    "preferred_backup_window": "12:32-13:02",
+    "preferred_maintenance_window": "thu:10:09-thu:10:39",
+    "publicly_accessible": true,
+    "read_replica_db_instance_identifiers": [],
+    "storage_encrypted": false,
+    "storage_throughput": 0,
+    "storage_type": "gp2",
+    "tag_list": [],
+    "tags": {},
+    "vpc_security_groups": [
+        {
+            "status": "active",
+            "vpc_security_group_id": "sg-081e5b33da3f056a1"
+        }
+    ]
+}

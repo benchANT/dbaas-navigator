@@ -1,0 +1,18 @@
+{
+    "load": {
+        "insertComplete": true,
+        "Exceptions": {
+            "total": 0
+        },
+        "insertRetryError": 0,
+        "INSERT-FAILED": 1258
+    },
+    "run": {
+        "executionTimeReached": true,
+        "Exceptions": {
+            "total": 0
+        },
+        "insertRetryError": 0,
+        "READ-FAILED": 4596
+    }
+}

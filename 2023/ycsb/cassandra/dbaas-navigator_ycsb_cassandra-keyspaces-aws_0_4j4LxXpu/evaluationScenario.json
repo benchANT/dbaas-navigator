@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "userId": "benchANT",
+    "projectId": "dbaas-navigator",
+    "batchId": "ycsb",
+    "configurationId": "cassandra-keyspaces-aws",
+    "configurationLabel": "cassandra-keyspaces-aws",
+    "executions": 2,
+    "executionCounter": 1
+  },
+  "resourceProvider": {
+    "name": "EC2",
+    "api": "EC2"
+  },
+  "dbaasProvider": {
+    "name": "AWS",
+    "api": "AWSKEYSPACES"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "CASSANDRA",
+    "operationType": "DBAAS",
+    "version": "4.0.0",
+    "DBAAS": {
+      "costs": {
+        "storageCosts": 0.0,
+        "vmCosts": 5068.86
+      },
+      "awsKeyspacesInstance": {
+        "region": "us-west-1",
+        "capacityType": "PROVISIONED",
+        "writeCapacity": 37500,
+        "readCapacity": 37500,
+        "user": "cicd_benchant-at-584241909684",
+        "password": "uY/1/oBY3B916BzD8o7bne2H0qplmX3I+FFMqbpcYqI\u003d"
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 1,
+      "resource": {
+        "ec2Vm": {
+          "regionName": "us-west-1",
+          "instanceType": "c5.4xlarge",
+          "architecture": "x86_64",
+          "imageDistribution": "ubuntu",
+          "imageVersion": "20.04",
+          "volumeType": "GP2",
+          "volumeSize": 30,
+          "iops": 100
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "YCSB-Read-Write-Mix",
+    "distribution": "YCSB",
+    "version": "0.17.0",
+    "ycsb": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadType": "LOAD",
+        "workloadClass": "site.ycsb.workloads.CoreWorkload",
+        "maxExecutionTime": 1800,
+        "threadCount": 100,
+        "recordCount": 10000000,
+        "insertStart": 10000000,
+        "insertCount": 0,
+        "operations": 54000000,
+        "targetOps": 15000,
+        "fieldCount": 10,
+        "fieldLength": 500,
+        "readAllFileds": true,
+        "readModifyWriteProportion": 0,
+        "requestdistribution": "ZIPFIAN",
+        "scanLengthDistribution": "UNIFORM",
+        "insertOrder": "ORDERED",
+        "readProportion": 0.5,
+        "updateProportion": 0.0,
+        "insertProportion": 0.5,
+        "scanProportion": 0.0,
+        "maxScanLength": 0,
+        "coreWorkloadInsertionRetryLimit": 3,
+        "coreWorkloadInsertionRetryInterval": 3,
+        "batchSize": 1
+      }
+    }
+  }
+}

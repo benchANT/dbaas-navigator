@@ -1,0 +1,142 @@
+{
+    "backups": [],
+    "cloud_description": "United States, California - Amazon Web Services: N. California",
+    "cloud_name": "aws-us-west-1",
+    "components": [
+        {
+            "component": "pg",
+            "host": "benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff535f-ben.aivencloud.com",
+            "port": 17573,
+            "privatelink_connection_id": null,
+            "route": "dynamic",
+            "usage": "primary"
+        },
+        {
+            "component": "pg",
+            "host": "replica-benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff.aivencloud.com",
+            "port": 17573,
+            "privatelink_connection_id": null,
+            "route": "dynamic",
+            "usage": "replica"
+        },
+        {
+            "component": "pg",
+            "host": "public-benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff5.aivencloud.com",
+            "port": 17573,
+            "privatelink_connection_id": null,
+            "route": "public",
+            "usage": "primary"
+        },
+        {
+            "component": "pg",
+            "host": "public-replica-benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a.aivencloud.com",
+            "port": 17573,
+            "privatelink_connection_id": null,
+            "route": "public",
+            "usage": "replica"
+        },
+        {
+            "component": "pgbouncer",
+            "host": "benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff535f-ben.aivencloud.com",
+            "port": 17574,
+            "privatelink_connection_id": null,
+            "route": "dynamic",
+            "usage": "primary"
+        },
+        {
+            "component": "pgbouncer",
+            "host": "replica-benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff.aivencloud.com",
+            "port": 17574,
+            "privatelink_connection_id": null,
+            "route": "dynamic",
+            "usage": "replica"
+        }
+    ],
+    "connection_info": {
+        "pg": [],
+        "pg_params": [],
+        "pg_replica_uri": "postgres://avnadmin:AVNS_9fOkVVoY4QqRrbhy7tX@replica-benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff.aivencloud.com:17573/defaultdb?sslmode=require",
+        "pg_standby": [],
+        "pg_syncing": []
+    },
+    "connection_pools": [],
+    "create_time": "2023-01-12T13:02:35.919568Z",
+    "databases": [],
+    "disk_space_mb": 1024000,
+    "features": {
+        "enhanced_logging": true,
+        "kafka_connect_service_integration": false,
+        "pg_allow_replication": true,
+        "pgbouncer": true,
+        "pgbouncer_pinned_pools": true,
+        "pgbouncer_unpinned_pools": true,
+        "service_integrations": true
+    },
+    "group_list": [
+        "default"
+    ],
+    "maintenance": {
+        "dow": "thursday",
+        "time": "22:14:32",
+        "updates": []
+    },
+    "metadata": {
+        "max_connections": 1000,
+        "pg_version": "14",
+        "write_block_threshold_exceeded": null
+    },
+    "node_count": 2,
+    "node_cpu_count": 8,
+    "node_memory_mb": 62464,
+    "node_states": [
+        {
+            "name": "benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff535f-1",
+            "progress_updates": [],
+            "role": "standby",
+            "state": "setting_up_vm"
+        }
+    ],
+    "notifications": [],
+    "plan": "business-64",
+    "project_vpc_id": null,
+    "service_integrations": [],
+    "service_name": "benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff535f",
+    "service_notifications": [],
+    "service_type": "pg",
+    "service_type_description": "PostgreSQL - Object-Relational Database Management System",
+    "service_uri": "postgres://avnadmin:AVNS_9fOkVVoY4QqRrbhy7tX@benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff535f-ben.aivencloud.com:17573/defaultdb?sslmode=require",
+    "service_uri_params": {
+        "dbname": "defaultdb",
+        "host": "benchant-aiven-cluster-cce15960-ba0d-57ae-8d4d-a034a3ff535f-ben.aivencloud.com",
+        "password": "AVNS_9fOkVVoY4QqRrbhy7tX",
+        "port": "17573",
+        "sslmode": "require",
+        "user": "avnadmin"
+    },
+    "state": "REBUILDING",
+    "tags": {},
+    "termination_protection": false,
+    "update_time": "2023-01-12T13:02:35.919568Z",
+    "user_config": {
+        "backup_hour": 10,
+        "backup_minute": 17,
+        "ip_filter": [
+            "0.0.0.0/0"
+        ],
+        "migration": null,
+        "pg": {},
+        "pg_read_replica": null,
+        "pg_stat_monitor_enable": false,
+        "pg_version": "14",
+        "pglookout": {
+            "max_failover_replication_time_lag": 60
+        },
+        "project_to_fork_from": null,
+        "public_access": {
+            "pg": true
+        },
+        "recovery_target_time": null,
+        "service_to_fork_from": null
+    },
+    "users": []
+}

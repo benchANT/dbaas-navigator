@@ -1,0 +1,61 @@
+{
+    "DBClusters": [
+        {
+            "AssociatedRoles": [],
+            "AvailabilityZones": [
+                "us-west-2c",
+                "us-west-2a",
+                "us-west-2b"
+            ],
+            "BackupRetentionPeriod": 1,
+            "ClusterCreateTime": "2023-01-09T10:49:17.892000+00:00",
+            "DBClusterArn": "arn:aws:rds:us-west-2:584241909684:cluster:dbaas-navigator-02e5e2be-108c-5f25-935a-9257cacea840",
+            "DBClusterIdentifier": "dbaas-navigator-02e5e2be-108c-5f25-935a-9257cacea840",
+            "DBClusterMembers": [
+                {
+                    "DBClusterParameterGroupStatus": "in-sync",
+                    "DBInstanceIdentifier": "dbaas-navigator-02e5e2be-108c-5f25-935a-9257cacea840-instance-1",
+                    "IsClusterWriter": false,
+                    "PromotionTier": 1
+                },
+                {
+                    "DBClusterParameterGroupStatus": "in-sync",
+                    "DBInstanceIdentifier": "dbaas-navigator-02e5e2be-108c-5f25-935a-9257cacea840-instance-3",
+                    "IsClusterWriter": false,
+                    "PromotionTier": 1
+                },
+                {
+                    "DBClusterParameterGroupStatus": "in-sync",
+                    "DBInstanceIdentifier": "dbaas-navigator-02e5e2be-108c-5f25-935a-9257cacea840-instance-2",
+                    "IsClusterWriter": false,
+                    "PromotionTier": 1
+                }
+            ],
+            "DBClusterParameterGroup": "benchant4-0",
+            "DBSubnetGroup": "default",
+            "DbClusterResourceId": "cluster-CVDP3Z2Q6D3PM7MVOO3PAN46EU",
+            "DeletionProtection": false,
+            "EarliestRestorableTime": "2023-01-09T10:50:13.457000+00:00",
+            "Endpoint": "dbaas-navigator-02e5e2be-108c-5f25-935a-9257cacea840.cluster-cdwm6pzxjgvr.us-west-2.docdb.amazonaws.com",
+            "Engine": "docdb",
+            "EngineVersion": "4.0.0",
+            "HostedZoneId": "Z9PSE6HRXLC6K",
+            "LatestRestorableTime": "2023-01-09T10:50:13.457000+00:00",
+            "MasterUsername": "root",
+            "MultiAZ": false,
+            "Port": 27017,
+            "PreferredBackupWindow": "09:23-09:53",
+            "PreferredMaintenanceWindow": "sun:10:34-sun:11:04",
+            "ReadReplicaIdentifiers": [],
+            "ReaderEndpoint": "dbaas-navigator-02e5e2be-108c-5f25-935a-9257cacea840.cluster-ro-cdwm6pzxjgvr.us-west-2.docdb.amazonaws.com",
+            "Status": "available",
+            "StorageEncrypted": false,
+            "VpcSecurityGroups": [
+                {
+                    "Status": "active",
+                    "VpcSecurityGroupId": "sg-30066740"
+                }
+            ]
+        }
+    ]
+}

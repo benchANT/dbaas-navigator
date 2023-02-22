@@ -1,0 +1,1317 @@
+bin/ycsb load cassandra-cql -s -jvm-args=-XX:MaxRAMPercentage=85.0  -p hosts=52.8.175.183,13.57.77.109,54.151.49.252 -p cassandra.keyspace=ycsb -p cassandra.username=benchant -p cassandra.password=benchANT2022 -target 25000  -p workload=site.ycsb.workloads.CoreWorkload -threads 100 -p recordcount=10000000 -p operationcount=54000000 -p fieldcount=10 -p fieldlength=500 -p requestdistribution=zipfian -p insertorder=ordered -p readproportion=0.5 -p updateproportion=0.0 -p insertproportion=0.5 -p scanproportion=0.0 -p scanlengthdistribution=uniform -p core_workload_insertion_retry_limit=3 -p core_workload_insertion_retry_interval=3
+/usr/java/bin/java -XX:MaxRAMPercentage=85.0 -cp /binary/ycsb/cassandra-binding/conf:/binary/ycsb/conf:/binary/ycsb/lib/HdrHistogram-2.1.4.jar:/binary/ycsb/lib/jackson-core-asl-1.9.4.jar:/binary/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/binary/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/binary/ycsb/lib/core-0.17.0.jar:/binary/ycsb/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/binary/ycsb/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/binary/ycsb/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/binary/ycsb/cassandra-binding/lib/metrics-core-3.1.2.jar:/binary/ycsb/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/binary/ycsb/cassandra-binding/lib/slf4j-api-1.7.25.jar:/binary/ycsb/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/binary/ycsb/cassandra-binding/lib/guava-16.0.1.jar:/binary/ycsb/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/binary/ycsb/cassandra-binding/lib/cassandra-binding-0.17.0.jar site.ycsb.Client -db site.ycsb.db.CassandraCQLClient -s -p hosts=52.8.175.183,13.57.77.109,54.151.49.252 -p cassandra.keyspace=ycsb -p cassandra.username=benchant -p cassandra.password=benchANT2022 -target 25000 -p workload=site.ycsb.workloads.CoreWorkload -threads 100 -p recordcount=10000000 -p operationcount=54000000 -p fieldcount=10 -p fieldlength=500 -p requestdistribution=zipfian -p insertorder=ordered -p readproportion=0.5 -p updateproportion=0.0 -p insertproportion=0.5 -p scanproportion=0.0 -p scanlengthdistribution=uniform -p core_workload_insertion_retry_limit=3 -p core_workload_insertion_retry_interval=3 -load
+Command line: -db site.ycsb.db.CassandraCQLClient -s -p hosts=52.8.175.183,13.57.77.109,54.151.49.252 -p cassandra.keyspace=ycsb -p cassandra.username=benchant -p cassandra.password=benchANT2022 -target 25000 -p workload=site.ycsb.workloads.CoreWorkload -threads 100 -p recordcount=10000000 -p operationcount=54000000 -p fieldcount=10 -p fieldlength=500 -p requestdistribution=zipfian -p insertorder=ordered -p readproportion=0.5 -p updateproportion=0.0 -p insertproportion=0.5 -p scanproportion=0.0 -p scanlengthdistribution=uniform -p core_workload_insertion_retry_limit=3 -p core_workload_insertion_retry_interval=3 -load
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-30 11:47:20:225 0 sec: 0 operations; est completion in 0 second 
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2023-01-30 11:47:30:210 10 sec: 85970 operations; 8597 current ops/sec; est completion in 19 minutes [INSERT: Count=85989, Max=126655, Min=640, Avg=5222.36, 90=8223, 99=16071, 99.9=107391, 99.99=120191] 
+2023-01-30 11:47:40:210 20 sec: 362554 operations; 27658.4 current ops/sec; est completion in 8 minutes [INSERT: Count=276574, Max=132095, Min=286, Avg=2700.53, 90=4799, 99=11055, 99.9=68031, 99.99=131455] 
+2023-01-30 11:47:50:210 30 sec: 605716 operations; 24316.2 current ops/sec; est completion in 7 minutes [INSERT: Count=243153, Max=250879, Min=289, Avg=1978.67, 90=3719, 99=14911, 99.9=110463, 99.99=197503] 
+2023-01-30 11:48:00:210 40 sec: 760182 operations; 15446.6 current ops/sec; est completion in 8 minutes [INSERT: Count=154466, Max=175103, Min=287, Avg=1892.99, 90=3697, 99=8631, 99.9=73023, 99.99=172543] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:48:10:210 50 sec: 804538 operations; 4435.6 current ops/sec; est completion in 9 minutes [INSERT: Count=44356, Max=8486911, Min=1605, Avg=21257.77, 90=5143, 99=14719, 99.9=8486911, 99.99=8486911] [INSERT-FAILED: Count=36, Max=10010623, Min=10002432, Avg=10006528, 90=10010623, 99=10010623, 99.9=10010623, 99.99=10010623] 
+2023-01-30 11:48:20:210 60 sec: 1114585 operations; 31004.7 current ops/sec; est completion in 7 minutes [INSERT: Count=310103, Max=163455, Min=527, Avg=3223.78, 90=4551, 99=12983, 99.9=54783, 99.99=150015] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:48:30:210 70 sec: 1364131 operations; 24954.6 current ops/sec; est completion in 7 minutes [INSERT: Count=249496, Max=440575, Min=515, Avg=3715.37, 90=4467, 99=12647, 99.9=233599, 99.99=439551] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:48:40:210 80 sec: 1424805 operations; 6067.4 current ops/sec; est completion in 8 minutes [INSERT: Count=60668, Max=4554751, Min=1395, Avg=6937.73, 90=2805, 99=6795, 99.9=265727, 99.99=4546559] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:48:50:210 90 sec: 1434209 operations; 940.4 current ops/sec; est completion in 8 minutes [INSERT: Count=9422, Max=3794943, Min=1784, Avg=37794.75, 90=4983, 99=2709503, 99.9=3713023, 99.99=3788799] [INSERT-FAILED: Count=100, Max=10010623, Min=9994240, Avg=9998827.52, 90=10002431, 99=10010623, 99.9=10010623, 99.99=10010623] 
+2023-01-30 11:49:00:210 100 sec: 1707393 operations; 27318.4 current ops/sec; est completion in 8 minutes [INSERT: Count=273166, Max=181631, Min=742, Avg=3628.33, 90=4971, 99=18943, 99.9=98879, 99.99=145535] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:49:10:210 110 sec: 1985237 operations; 27784.4 current ops/sec; est completion in 7 minutes [INSERT: Count=277848, Max=206975, Min=383, Avg=3510.54, 90=4551, 99=13919, 99.9=161151, 99.99=194815] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:49:20:210 120 sec: 2075103 operations; 8986.6 current ops/sec; est completion in 7 minutes [INSERT: Count=89862, Max=257791, Min=1404, Avg=2767.28, 90=2849, 99=8311, 99.9=110399, 99.99=254207] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:49:30:210 130 sec: 2075103 operations; 0 current ops/sec; est completion in 8 minutes [INSERT: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT-FAILED: Count=100, Max=12050431, Min=9994240, Avg=11005296.64, 90=12050431, 99=12050431, 99.9=12050431, 99.99=12050431] 
+2023-01-30 11:49:40:210 140 sec: 2341062 operations; 26595.9 current ops/sec; est completion in 7 minutes [INSERT: Count=265968, Max=7557119, Min=752, Avg=5199.51, 90=4571, 99=12847, 99.9=125631, 99.99=6852607] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:49:50:210 150 sec: 2613596 operations; 27253.4 current ops/sec; est completion in 7 minutes [INSERT: Count=272535, Max=376063, Min=565, Avg=3570.75, 90=4515, 99=20607, 99.9=176383, 99.99=207487] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:50:00:210 160 sec: 2710799 operations; 9720.3 current ops/sec; est completion in 7 minutes [INSERT: Count=97193, Max=273151, Min=1418, Avg=2552.57, 90=2785, 99=6135, 99.9=71295, 99.99=272127] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:50:10:210 170 sec: 2710799 operations; 0 current ops/sec; est completion in 7 minutes [INSERT: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT-FAILED: Count=100, Max=12107775, Min=9994240, Avg=11089018.88, 90=12099583, 99=12107775, 99.9=12107775, 99.99=12107775] 
+2023-01-30 11:50:20:210 180 sec: 2927328 operations; 21652.9 current ops/sec; est completion in 7 minutes [INSERT: Count=216544, Max=7864319, Min=746, Avg=6335.64, 90=4811, 99=27727, 99.9=124799, 99.99=7458815] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:50:30:210 190 sec: 3218480 operations; 29115.2 current ops/sec; est completion in 6 minutes [INSERT: Count=291137, Max=463871, Min=528, Avg=3433.36, 90=4399, 99=13719, 99.9=216063, 99.99=252159] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:50:40:210 200 sec: 3361791 operations; 14331.1 current ops/sec; est completion in 6 minutes [INSERT: Count=143311, Max=254207, Min=1008, Avg=2543.83, 90=3163, 99=5991, 99.9=33567, 99.99=233087] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:50:50:210 210 sec: 3361841 operations; 5 current ops/sec; est completion in 6 minutes [INSERT: Count=50, Max=9347071, Min=9338880, Avg=9342976, 90=9347071, 99=9347071, 99.9=9347071, 99.99=9347071] [INSERT-FAILED: Count=50, Max=12034047, Min=12017664, Avg=12027985.92, 90=12034047, 99=12034047, 99.9=12034047, 99.99=12034047] 
+2023-01-30 11:51:00:210 220 sec: 3543841 operations; 18200 current ops/sec; est completion in 6 minutes [INSERT: Count=182018, Max=7131135, Min=836, Avg=7742.1, 90=5239, 99=31855, 99.9=141439, 99.99=6868991] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:51:10:210 230 sec: 3839466 operations; 29562.5 current ops/sec; est completion in 6 minutes [INSERT: Count=295607, Max=251391, Min=476, Avg=3388.55, 90=4503, 99=12775, 99.9=141183, 99.99=251007] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:51:20:210 240 sec: 4027921 operations; 18845.5 current ops/sec; est completion in 5 minutes [INSERT: Count=188455, Max=1964031, Min=997, Avg=3198.88, 90=2745, 99=7883, 99.9=59679, 99.99=1963007] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:51:30:210 250 sec: 4027921 operations; 0 current ops/sec; est completion in 6 minutes [INSERT: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT-FAILED: Count=100, Max=12066815, Min=9994240, Avg=11070586.88, 90=12066815, 99=12066815, 99.9=12066815, 99.99=12066815] 
+2023-01-30 11:51:40:210 260 sec: 4154970 operations; 12704.9 current ops/sec; est completion in 6 minutes [INSERT: Count=127049, Max=8069119, Min=513, Avg=7748.19, 90=5483, 99=26063, 99.9=116543, 99.99=7610367] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:51:50:210 270 sec: 4485988 operations; 33101.8 current ops/sec; est completion in 5 minutes [INSERT: Count=331018, Max=250751, Min=524, Avg=3000.41, 90=4287, 99=9375, 99.9=144639, 99.99=248063] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:52:00:210 280 sec: 4654842 operations; 16885.4 current ops/sec; est completion in 5 minutes [INSERT: Count=168854, Max=487423, Min=485, Avg=3264.13, 90=3011, 99=18511, 99.9=247423, 99.99=300287] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:52:10:210 290 sec: 4654842 operations; 0 current ops/sec; est completion in 5 minutes [INSERT: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT-FAILED: Count=100, Max=12107775, Min=9994240, Avg=11113431.04, 90=12091391, 99=12099583, 99.9=12107775, 99.99=12107775] 
+2023-01-30 11:52:20:210 300 sec: 4787604 operations; 13276.2 current ops/sec; est completion in 5 minutes [INSERT: Count=132762, Max=7684095, Min=1651, Avg=7846.52, 90=4691, 99=30959, 99.9=129343, 99.99=7450623] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:52:30:210 310 sec: 5071115 operations; 28351.1 current ops/sec; est completion in 5 minutes [INSERT: Count=283511, Max=188287, Min=451, Avg=3501.34, 90=4967, 99=15175, 99.9=134015, 99.99=176511] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:52:40:210 320 sec: 5328985 operations; 25787 current ops/sec; est completion in 4 minutes [INSERT: Count=257870, Max=362751, Min=447, Avg=2917.5, 90=3571, 99=8447, 99.9=117247, 99.99=358143] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:52:50:210 330 sec: 5368351 operations; 3936.6 current ops/sec; est completion in 4 minutes [INSERT: Count=39366, Max=53407, Min=1504, Avg=2564.41, 90=3033, 99=5099, 99.9=28015, 99.99=38591] [INSERT-FAILED: Count=38, Max=12107775, Min=12009472, Avg=12089451.79, 90=12107775, 99=12107775, 99.9=12107775, 99.99=12107775] 
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+2023-01-30 11:53:00:210 340 sec: 5420693 operations; 5234.2 current ops/sec; est completion in 4 minutes [INSERT: Count=52353, Max=10313727, Min=1378, Avg=25964.79, 90=3233, 99=6827, 99.9=8863743, 99.99=10174463] [INSERT-FAILED: Count=19, Max=10002431, Min=9994240, Avg=9998336, 90=10002431, 99=10002431, 99.9=10002431, 99.99=10002431] 
+2023-01-30 11:53:10:210 350 sec: 5607672 operations; 18697.9 current ops/sec; est completion in 4 minutes [INSERT: Count=186968, Max=273919, Min=909, Avg=5209.66, 90=7539, 99=35935, 99.9=184831, 99.99=270335] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:53:20:210 360 sec: 5849812 operations; 24214 current ops/sec; est completion in 4 minutes [INSERT: Count=242141, Max=368383, Min=424, Avg=4092.95, 90=4471, 99=14639, 99.9=259711, 99.99=357631] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:53:30:210 370 sec: 6065257 operations; 21544.5 current ops/sec; est completion in 4 minutes [INSERT: Count=215444, Max=288767, Min=1371, Avg=2601.97, 90=2931, 99=5639, 99.9=81983, 99.99=146687] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:53:40:210 380 sec: 6146151 operations; 8089.4 current ops/sec; est completion in 3 minutes [INSERT: Count=80894, Max=457983, Min=1412, Avg=2974.68, 90=2875, 99=5831, 99.9=101567, 99.99=456959] [INSERT-FAILED: Count=44, Max=12083199, Min=12058624, Avg=12070353.45, 90=12075007, 99=12083199, 99.9=12083199, 99.99=12083199] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+Retrying insertion, retry count: 2
+2023-01-30 11:53:50:210 390 sec: 6180394 operations; 3424.3 current ops/sec; est completion in 4 minutes [INSERT: Count=34244, Max=11460607, Min=1373, Avg=13721.7, 90=3921, 99=6591, 99.9=2256895, 99.99=11444223] [INSERT-FAILED: Count=83, Max=10010623, Min=9994240, Avg=9998434.7, 90=10002431, 99=10002431, 99.9=10010623, 99.99=10010623] 
+2023-01-30 11:54:00:210 400 sec: 6306043 operations; 12564.9 current ops/sec; est completion in 3 minutes [INSERT: Count=125648, Max=2207743, Min=763, Avg=7954.15, 90=10183, 99=53823, 99.9=217727, 99.99=2119679] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:54:10:210 410 sec: 6531055 operations; 22501.2 current ops/sec; est completion in 3 minutes [INSERT: Count=225012, Max=570879, Min=591, Avg=4167.37, 90=4987, 99=14415, 99.9=289535, 99.99=345599] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:54:20:210 420 sec: 6729982 operations; 19892.7 current ops/sec; est completion in 3 minutes [INSERT: Count=198927, Max=174207, Min=1404, Avg=2309.19, 90=2625, 99=4511, 99.9=51231, 99.99=172415] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:54:30:210 430 sec: 6858469 operations; 12848.7 current ops/sec; est completion in 3 minutes [INSERT: Count=128498, Max=4095999, Min=1400, Avg=6144.94, 90=3897, 99=10119, 99.9=107647, 99.99=4093951] [INSERT-FAILED: Count=54, Max=12050431, Min=12034048, Avg=12040116.15, 90=12050431, 99=12050431, 99.9=12050431, 99.99=12050431] 
+2023-01-30 11:54:40:210 440 sec: 6932643 operations; 7417.4 current ops/sec; est completion in 3 minutes [INSERT: Count=74163, Max=7929855, Min=1361, Avg=13482.71, 90=4055, 99=22895, 99.9=5922815, 99.99=7929855] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:54:50:210 450 sec: 7140069 operations; 20742.6 current ops/sec; est completion in 3 minutes [INSERT: Count=207429, Max=300799, Min=425, Avg=4786.54, 90=8215, 99=32591, 99.9=201855, 99.99=271871] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:55:00:210 460 sec: 7363166 operations; 22309.7 current ops/sec; est completion in 2 minutes [INSERT: Count=223099, Max=301055, Min=753, Avg=3326.63, 90=4547, 99=12607, 99.9=190463, 99.99=294655] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:55:10:210 470 sec: 7481716 operations; 11855 current ops/sec; est completion in 2 minutes [INSERT: Count=118545, Max=10002431, Min=1393, Avg=7170.68, 90=2913, 99=5739, 99.9=51583, 99.99=10002431] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:55:20:210 480 sec: 7481716 operations; 0 current ops/sec; est completion in 2 minutes [INSERT: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT-FAILED: Count=100, Max=10002431, Min=9994240, Avg=9998336, 90=10002431, 99=10002431, 99.9=10002431, 99.99=10002431] 
+2023-01-30 11:55:30:210 490 sec: 7699660 operations; 21794.4 current ops/sec; est completion in 2 minutes [INSERT: Count=217978, Max=2326527, Min=1607, Avg=5094.02, 90=4327, 99=10895, 99.9=75903, 99.99=2324479] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:55:40:210 500 sec: 7867087 operations; 16742.7 current ops/sec; est completion in 2 minutes [INSERT: Count=167412, Max=298751, Min=484, Avg=5970.09, 90=11359, 99=41535, 99.9=233215, 99.99=297727] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:55:50:210 510 sec: 8081823 operations; 21473.6 current ops/sec; est completion in 2 minutes [INSERT: Count=214717, Max=427263, Min=399, Avg=4656.62, 90=4267, 99=22895, 99.9=275711, 99.99=423679] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:56:00:210 520 sec: 8314719 operations; 23289.6 current ops/sec; est completion in 1 minute [INSERT: Count=232896, Max=147327, Min=1601, Avg=3762.58, 90=4543, 99=16783, 99.9=89983, 99.99=144127] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:56:10:210 530 sec: 8314783 operations; 6.4 current ops/sec; est completion in 1 minute [INSERT: Count=64, Max=6463487, Min=6455296, Avg=6457408, 90=6459391, 99=6459391, 99.9=6463487, 99.99=6463487] [INSERT-FAILED: Count=36, Max=10002431, Min=9994240, Avg=9998336, 90=10002431, 99=10002431, 99.9=10002431, 99.99=10002431] 
+2023-01-30 11:56:20:210 540 sec: 8416954 operations; 10217.1 current ops/sec; est completion in 1 minute [INSERT: Count=102171, Max=9084927, Min=1563, Avg=12144.2, 90=8759, 99=46591, 99.9=109951, 99.99=9084927] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:56:30:210 550 sec: 8606886 operations; 18993.2 current ops/sec; est completion in 1 minute [INSERT: Count=189932, Max=366335, Min=337, Avg=5275.45, 90=7475, 99=40607, 99.9=230527, 99.99=363775] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:56:40:210 560 sec: 8846727 operations; 23984.1 current ops/sec; est completion in 1 minute [CLEANUP: Count=1, Max=8, Min=8, Avg=8, 90=8, 99=8, 99.9=8, 99.99=8] [INSERT: Count=239841, Max=248191, Min=890, Avg=2616.87, 90=3071, 99=5627, 99.9=220415, 99.99=246655] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:56:50:210 570 sec: 9091607 operations; 24488 current ops/sec; est completion in 57 seconds [CLEANUP: Count=7, Max=4, Min=2, Avg=3, 90=3, 99=4, 99.9=4, 99.99=4] [INSERT: Count=244880, Max=10600447, Min=1412, Avg=5044.07, 90=3683, 99=8015, 99.9=62623, 99.99=10600447] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:57:00:210 580 sec: 9091607 operations; 0 current ops/sec; est completion in 58 seconds [CLEANUP: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT-FAILED: Count=92, Max=12099583, Min=9994240, Avg=10180697.04, 90=10002431, 99=12099583, 99.9=12099583, 99.99=12099583] 
+2023-01-30 11:57:10:210 590 sec: 9102423 operations; 1081.6 current ops/sec; est completion in 59 seconds [CLEANUP: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT: Count=10816, Max=7258111, Min=1733, Avg=65335.72, 90=48063, 99=2588671, 99.9=3020799, 99.99=7041023] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:57:20:210 600 sec: 9292048 operations; 18962.5 current ops/sec; est completion in 46 seconds [CLEANUP: Count=7, Max=4, Min=3, Avg=3.29, 90=4, 99=4, 99.9=4, 99.99=4] [INSERT: Count=189625, Max=310015, Min=479, Avg=4579.6, 90=6819, 99=24207, 99.9=219135, 99.99=290815] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:57:30:210 610 sec: 9462147 operations; 17009.9 current ops/sec; est completion in 35 seconds [CLEANUP: Count=12, Max=4, Min=2, Avg=2.92, 90=3, 99=4, 99.9=4, 99.99=4] [INSERT: Count=170099, Max=261247, Min=404, Avg=2540.85, 90=3543, 99=6475, 99.9=71039, 99.99=260991] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:57:40:210 620 sec: 9613408 operations; 15126.1 current ops/sec; est completion in 25 seconds [CLEANUP: Count=16, Max=4, Min=2, Avg=2.88, 90=4, 99=4, 99.9=4, 99.99=4] [INSERT: Count=151261, Max=36799, Min=1351, Avg=2052.77, 90=2657, 99=4487, 99.9=8591, 99.99=17823] [INSERT-FAILED: Count=49, Max=12058623, Min=12050432, Avg=12054528, 90=12058623, 99=12058623, 99.9=12058623, 99.99=12058623] 
+2023-01-30 11:57:50:210 630 sec: 9773286 operations; 15987.8 current ops/sec; est completion in 15 seconds [CLEANUP: Count=16, Max=4, Min=2, Avg=2.94, 90=3, 99=4, 99.9=4, 99.99=4] [INSERT: Count=159885, Max=1708031, Min=1383, Avg=2662.79, 90=2615, 99=4045, 99.9=15519, 99.99=1702911] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:58:00:210 640 sec: 9880788 operations; 10750.2 current ops/sec; est completion in 8 second [CLEANUP: Count=19, Max=4, Min=1, Avg=2.74, 90=3, 99=4, 99.9=4, 99.99=4] [INSERT: Count=107495, Max=11395071, Min=304, Avg=3646.88, 90=4507, 99=22927, 99.9=75647, 99.99=255487] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:58:10:210 650 sec: 9976206 operations; 9541.8 current ops/sec; est completion in 2 second [CLEANUP: Count=15, Max=6, Min=2, Avg=3, 90=4, 99=6, 99.9=6, 99.99=6] [INSERT: Count=95418, Max=420863, Min=294, Avg=1155.46, 90=1106, 99=2777, 99.9=180863, 99.99=377087] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+2023-01-30 11:58:20:210 660 sec: 9979540 operations; 333.4 current ops/sec; est completion in 2 second [CLEANUP: Count=1, Max=3, Min=3, Avg=3, 90=3, 99=3, 99.9=3, 99.99=3] [INSERT: Count=3334, Max=3273, Min=1404, Avg=1537, 90=1600, 99=1734, 99.9=2569, 99.99=3273] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+Retrying insertion, retry count: 1
+2023-01-30 11:58:30:210 670 sec: 9997363 operations; 1782.3 current ops/sec; est completion in 1 second [CLEANUP: Count=4, Max=3, Min=2, Avg=2.5, 90=3, 99=3, 99.9=3, 99.99=3] [INSERT: Count=17823, Max=7335, Min=1340, Avg=1613.32, 90=1723, 99=1989, 99.9=3547, 99.99=6483] [INSERT-FAILED: Count=6, Max=12042239, Min=12034048, Avg=12038144, 90=12042239, 99=12042239, 99.9=12042239, 99.99=12042239] 
+2023-01-30 11:58:34:663 674 sec: 10000000 operations; 592.19 current ops/sec; [CLEANUP: Count=2, Max=2209791, Min=3, Avg=1104385.5, 90=2209791, 99=2209791, 99.9=2209791, 99.99=2209791] [INSERT: Count=2637, Max=6759, Min=1393, Avg=1585.2, 90=1664, 99=1807, 99.9=2723, 99.99=6759] [INSERT-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=?, 90=0, 99=0, 99.9=0, 99.99=0] 
+[OVERALL], RunTime(ms), 674453
+[OVERALL], Throughput(ops/sec), 14826.830038564585
+[TOTAL_GCS_PS_Scavenge], Count, 763
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2808
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.41633738748289356
+[TOTAL_GCS_PS_MarkSweep], Count, 7
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 189
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.028022708772887064
+[TOTAL_GCs], Count, 770
+[TOTAL_GC_TIME], Time(ms), 2997
+[TOTAL_GC_TIME_%], Time(%), 0.4443600962557806
+[CLEANUP], Operations, 100
+[CLEANUP], AverageLatency(us), 22090.61
+[CLEANUP], MinLatency(us), 1
+[CLEANUP], MaxLatency(us), 2209791
+[CLEANUP], 95thPercentileLatency(us), 4
+[CLEANUP], 99thPercentileLatency(us), 8
+[INSERT], Operations, 10000000
+[INSERT], AverageLatency(us), 4522.4151627
+[INSERT], MinLatency(us), 286
+[INSERT], MaxLatency(us), 11460607
+[INSERT], 95thPercentileLatency(us), 6051
+[INSERT], 99thPercentileLatency(us), 19295
+[INSERT], Return=OK, 10000000
+[INSERT], Return=ERROR, 1107
+[INSERT-FAILED], Operations, 1107
+[INSERT-FAILED], AverageLatency(us), 1.0848372552845528E7
+[INSERT-FAILED], MinLatency(us), 9994240
+[INSERT-FAILED], MaxLatency(us), 12107775
+[INSERT-FAILED], 95thPercentileLatency(us), 12099583
+[INSERT-FAILED], 99thPercentileLatency(us), 12107775

@@ -1,0 +1,155 @@
+[
+    {
+        "dbaasProvider": "AIVEN",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "EC2",
+                "properties": [
+                    {
+                        "featureData": 10501,
+                        "featureKey": "throughput",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 14,
+                        "featureKey": "readLatency",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 73,
+                        "featureKey": "writeLatency",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 2.4,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 3.13,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 3360.0,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dbaasProvider": "AZUREPOSTGRESQL",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "AZURE",
+                "properties": [
+                    {
+                        "featureData": 4294,
+                        "featureKey": "throughput",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 2.5,
+                        "featureKey": "readLatency",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 107,
+                        "featureKey": "writeLatency",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 10.9,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 1
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 1.99,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 2153.04,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dbaasProvider": "AWSRDS",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "EC2",
+                "properties": [
+                    {
+                        "featureData": 12348,
+                        "featureKey": "throughput",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 6.8,
+                        "featureKey": "readLatency",
+                        "featureScore": 4
+                    },
+                    {
+                        "featureData": 31,
+                        "featureKey": "writeLatency",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 0.5,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 5.64,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 2189.86,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 3
+                    }
+                ]
+            }
+        ]
+    }
+]

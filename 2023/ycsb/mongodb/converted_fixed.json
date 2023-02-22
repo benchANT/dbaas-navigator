@@ -1,0 +1,155 @@
+[
+    {
+        "dbaasProvider": "ATLAS",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "EC2",
+                "properties": [
+                    {
+                        "featureData": 14868,
+                        "featureKey": "throughput",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 10,
+                        "featureKey": "readLatency",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 16,
+                        "featureKey": "writeLatency",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 4.2,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 7.84,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 5
+                    },
+                    {
+                        "featureData": 1895.8,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dbaasProvider": "COSMOSDB",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "AZURE",
+                "properties": [
+                    {
+                        "featureData": 11247,
+                        "featureKey": "throughput",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 5.0,
+                        "featureKey": "readLatency",
+                        "featureScore": 4
+                    },
+                    {
+                        "featureData": 6.6,
+                        "featureKey": "writeLatency",
+                        "featureScore": 4
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 1.24,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 9069.93,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dbaasProvider": "AWSDOCUMENTDB",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "EC2",
+                "properties": [
+                    {
+                        "featureData": 9606,
+                        "featureKey": "throughput",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 6.1,
+                        "featureKey": "readLatency",
+                        "featureScore": 4
+                    },
+                    {
+                        "featureData": 52,
+                        "featureKey": "writeLatency",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 3.8,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 3.21,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 2991.33,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 3
+                    }
+                ]
+            }
+        ]
+    }
+]

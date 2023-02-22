@@ -1,0 +1,169 @@
+/usr/java/bin/java -XX:MaxRAMPercentage=85.0 -cp /binary/ycsb/mongodb-binding/conf:/binary/ycsb/conf:/binary/ycsb/lib/HdrHistogram-2.1.4.jar:/binary/ycsb/lib/jackson-core-asl-1.9.4.jar:/binary/ycsb/lib/core-0.17.0.jar:/binary/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/binary/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/binary/ycsb/mongodb-binding/lib/logback-core-1.1.2.jar:/binary/ycsb/mongodb-binding/lib/snappy-java-1.1.7.1.jar:/binary/ycsb/mongodb-binding/lib/slf4j-api-1.7.25.jar:/binary/ycsb/mongodb-binding/lib/mongo-java-driver-3.8.0.jar:/binary/ycsb/mongodb-binding/lib/logback-classic-1.1.2.jar:/binary/ycsb/mongodb-binding/lib/mongodb-binding-0.17.0.jar:/binary/ycsb/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar site.ycsb.Client -db site.ycsb.db.MongoDbClient -s -p mongodb.url=mongodb://root:pCm9YZpSAres@benchant-cluster-shard-00-00.qom1z.mongodb.net:27017,benchant-cluster-shard-00-01.qom1z.mongodb.net:27017,benchant-cluster-shard-00-02.qom1z.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-s50del-shard-0 -p batchsize=100 -p workload=site.ycsb.workloads.CoreWorkload -threads 100 -p recordcount=10000000 -p operationcount=54000000 -p fieldcount=10 -p fieldlength=500 -p requestdistribution=zipfian -p insertorder=ordered -p readproportion=0.5 -p updateproportion=0.0 -p insertproportion=0.5 -p scanproportion=0.0 -p scanlengthdistribution=uniform -p core_workload_insertion_retry_limit=3 -p core_workload_insertion_retry_interval=3 -load
+Command line: -db site.ycsb.db.MongoDbClient -s -p mongodb.url=mongodb://root:pCm9YZpSAres@benchant-cluster-shard-00-00.qom1z.mongodb.net:27017,benchant-cluster-shard-00-01.qom1z.mongodb.net:27017,benchant-cluster-shard-00-02.qom1z.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-s50del-shard-0 -p batchsize=100 -p workload=site.ycsb.workloads.CoreWorkload -threads 100 -p recordcount=10000000 -p operationcount=54000000 -p fieldcount=10 -p fieldlength=500 -p requestdistribution=zipfian -p insertorder=ordered -p readproportion=0.5 -p updateproportion=0.0 -p insertproportion=0.5 -p scanproportion=0.0 -p scanlengthdistribution=uniform -p core_workload_insertion_retry_limit=3 -p core_workload_insertion_retry_interval=3 -load
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+2022-12-19 09:38:29:294 0 sec: 0 operations; est completion in 0 second 
+mongo client connection created with mongodb://root:pCm9YZpSAres@benchant-cluster-shard-00-00.qom1z.mongodb.net:27017,benchant-cluster-shard-00-01.qom1z.mongodb.net:27017,benchant-cluster-shard-00-02.qom1z.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-s50del-shard-0
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2022-12-19 09:38:39:278 10 sec: 423000 operations; 42300 current ops/sec; est completion in 3 minutes [INSERT: Count=423044, Max=1652735, Min=6, Avg=2253.99, 90=21, 99=13439, 99.9=330239, 99.99=1289215] 
+2022-12-19 09:38:49:278 20 sec: 839400 operations; 41640 current ops/sec; est completion in 3 minutes [INSERT: Count=416356, Max=559615, Min=6, Avg=2375.74, 90=18, 99=32991, 99.9=345855, 99.99=463871] 
+2022-12-19 09:38:59:278 30 sec: 1163500 operations; 32410 current ops/sec; est completion in 3 minutes [INSERT: Count=324100, Max=523263, Min=6, Avg=3103.13, 90=15, 99=34015, 99.9=410111, 99.99=499967] 
+2022-12-19 09:39:09:278 40 sec: 1455400 operations; 29190 current ops/sec; est completion in 3 minutes [INSERT: Count=291900, Max=731647, Min=6, Avg=3423.83, 90=14, 99=31423, 99.9=486399, 99.99=653311] 
+2022-12-19 09:39:19:278 50 sec: 1732300 operations; 27690 current ops/sec; est completion in 3 minutes [INSERT: Count=276900, Max=627199, Min=6, Avg=3575.32, 90=14, 99=30271, 99.9=477951, 99.99=590847] 
+2022-12-19 09:39:29:278 60 sec: 1976100 operations; 24380 current ops/sec; est completion in 4 minutes [INSERT: Count=243800, Max=756735, Min=6, Avg=4060.61, 90=14, 99=36671, 99.9=577023, 99.99=712703] 
+2022-12-19 09:39:39:278 70 sec: 2226800 operations; 25070 current ops/sec; est completion in 4 minutes [INSERT: Count=250700, Max=791551, Min=6, Avg=4062.04, 90=14, 99=29215, 99.9=601087, 99.99=729599] 
+2022-12-19 09:39:49:278 80 sec: 2413700 operations; 18690 current ops/sec; est completion in 4 minutes [INSERT: Count=186900, Max=3336191, Min=6, Avg=5352.69, 90=16, 99=37919, 99.9=585727, 99.99=3190783] 
+2022-12-19 09:39:59:278 90 sec: 2721400 operations; 30770 current ops/sec; est completion in 4 minutes [INSERT: Count=307700, Max=593919, Min=6, Avg=3236.78, 90=15, 99=36319, 99.9=470783, 99.99=562687] 
+2022-12-19 09:40:09:278 100 sec: 3032700 operations; 31130 current ops/sec; est completion in 3 minutes [INSERT: Count=311300, Max=559103, Min=6, Avg=3164.24, 90=15, 99=41887, 99.9=442879, 99.99=528383] 
+2022-12-19 09:40:19:278 110 sec: 3330203 operations; 29750.3 current ops/sec; est completion in 3 minutes [INSERT: Count=297528, Max=630783, Min=6, Avg=3399.62, 90=14, 99=51999, 99.9=466687, 99.99=611839] 
+2022-12-19 09:40:29:278 120 sec: 3600300 operations; 27009.7 current ops/sec; est completion in 3 minutes [INSERT: Count=270072, Max=830463, Min=6, Avg=3701.06, 90=14, 99=27135, 99.9=512255, 99.99=687615] 
+2022-12-19 09:40:39:278 130 sec: 3884095 operations; 28379.5 current ops/sec; est completion in 3 minutes [INSERT: Count=283800, Max=727039, Min=6, Avg=3539.39, 90=14, 99=52671, 99.9=472831, 99.99=683007] 
+2022-12-19 09:40:49:278 140 sec: 4152000 operations; 26790.5 current ops/sec; est completion in 3 minutes [INSERT: Count=267900, Max=666623, Min=6, Avg=3730.14, 90=14, 99=31599, 99.9=509439, 99.99=633343] 
+2022-12-19 09:40:59:278 150 sec: 4407200 operations; 25520 current ops/sec; est completion in 3 minutes [INSERT: Count=255200, Max=847871, Min=6, Avg=3923.64, 90=14, 99=50623, 99.9=511743, 99.99=830975] 
+2022-12-19 09:41:09:278 160 sec: 4623200 operations; 21600 current ops/sec; est completion in 3 minutes [INSERT: Count=216000, Max=1244159, Min=6, Avg=4605.48, 90=14, 99=36223, 99.9=646655, 99.99=1169407] 
+2022-12-19 09:41:19:278 170 sec: 4925910 operations; 30271 current ops/sec; est completion in 2 minutes [INSERT: Count=302816, Max=698367, Min=6, Avg=3312.16, 90=16, 99=46623, 99.9=470527, 99.99=639999] 
+2022-12-19 09:41:29:278 180 sec: 5222200 operations; 29629 current ops/sec; est completion in 2 minutes [INSERT: Count=296184, Max=670207, Min=6, Avg=3344.68, 90=15, 99=45951, 99.9=514303, 99.99=639999] 
+2022-12-19 09:41:39:278 190 sec: 5530900 operations; 30870 current ops/sec; est completion in 2 minutes [INSERT: Count=308700, Max=665599, Min=6, Avg=3235.83, 90=15, 99=51103, 99.9=446719, 99.99=573951] 
+2022-12-19 09:41:49:278 200 sec: 5815600 operations; 28470 current ops/sec; est completion in 2 minutes [INSERT: Count=284700, Max=987135, Min=6, Avg=3531.4, 90=15, 99=43071, 99.9=509951, 99.99=894463] 
+2022-12-19 09:41:59:279 210 sec: 6066962 operations; 25133.69 current ops/sec; est completion in 2 minutes [INSERT: Count=251458, Max=963071, Min=6, Avg=3963.53, 90=14, 99=50719, 99.9=646655, 99.99=932863] 
+2022-12-19 09:42:09:278 220 sec: 6330600 operations; 26366.44 current ops/sec; est completion in 2 minutes [INSERT: Count=263542, Max=839679, Min=6, Avg=3574.27, 90=14, 99=35199, 99.9=530943, 99.99=732159] 
+2022-12-19 09:42:19:278 230 sec: 6614500 operations; 28390 current ops/sec; est completion in 1 minute [INSERT: Count=283900, Max=1040895, Min=6, Avg=3706.51, 90=14, 99=36095, 99.9=576511, 99.99=962559] 
+2022-12-19 09:42:29:283 240 sec: 6900859 operations; 28621.59 current ops/sec; est completion in 1 minute [INSERT: Count=286439, Max=953343, Min=6, Avg=3525.8, 90=14, 99=61151, 99.9=506623, 99.99=882687] 
+2022-12-19 09:42:39:278 250 sec: 7106300 operations; 20554.38 current ops/sec; est completion in 1 minute [INSERT: Count=205361, Max=1011711, Min=6, Avg=3808.65, 90=14, 99=35359, 99.9=545279, 99.99=744959] 
+2022-12-19 09:42:49:278 260 sec: 7362600 operations; 25630 current ops/sec; est completion in 1 minute [INSERT: Count=256300, Max=3422207, Min=6, Avg=4685.54, 90=15, 99=33503, 99.9=590335, 99.99=3393535] 
+2022-12-19 09:42:59:278 270 sec: 7668000 operations; 30540 current ops/sec; est completion in 1 minute [INSERT: Count=305400, Max=666111, Min=6, Avg=3279.53, 90=15, 99=39775, 99.9=476415, 99.99=638463] 
+2022-12-19 09:43:09:278 280 sec: 7990600 operations; 32260 current ops/sec; est completion in 1 minute [INSERT: Count=322600, Max=556031, Min=6, Avg=3118.14, 90=15, 99=36863, 99.9=421631, 99.99=507391] 
+2022-12-19 09:43:19:278 290 sec: 8285200 operations; 29460 current ops/sec; est completion in 1 minute [INSERT: Count=294600, Max=866815, Min=6, Avg=3344.29, 90=15, 99=31983, 99.9=479743, 99.99=829951] 
+2022-12-19 09:43:29:278 300 sec: 8562900 operations; 27770 current ops/sec; est completion in 51 seconds [INSERT: Count=277700, Max=895487, Min=6, Avg=3598.13, 90=15, 99=42079, 99.9=544255, 99.99=739839] 
+2022-12-19 09:43:39:278 310 sec: 8835000 operations; 27210 current ops/sec; est completion in 41 seconds [INSERT: Count=272100, Max=1225727, Min=6, Avg=3714.25, 90=14, 99=33663, 99.9=532991, 99.99=1160191] 
+2022-12-19 09:43:49:278 320 sec: 9074100 operations; 23910 current ops/sec; est completion in 33 seconds [INSERT: Count=239100, Max=1894399, Min=6, Avg=4141.6, 90=14, 99=33631, 99.9=604159, 99.99=1835007] 
+2022-12-19 09:43:59:278 330 sec: 9353744 operations; 27964.4 current ops/sec; est completion in 23 seconds [INSERT: Count=279720, Max=850943, Min=6, Avg=3613.45, 90=14, 99=43455, 99.9=594431, 99.99=724991] 
+2022-12-19 09:44:09:278 340 sec: 9550900 operations; 19715.6 current ops/sec; est completion in 16 seconds [INSERT: Count=197080, Max=2971647, Min=6, Avg=4939.27, 90=15, 99=30015, 99.9=626687, 99.99=2899967] 
+2022-12-19 09:44:19:278 350 sec: 9848101 operations; 29720.1 current ops/sec; est completion in 6 second [CLEANUP: Count=1, Max=6, Min=6, Avg=6, 90=6, 99=6, 99.9=6, 99.99=6] [INSERT: Count=297201, Max=651263, Min=6, Avg=3451.73, 90=17, 99=33535, 99.9=500223, 99.99=563711] 
+2022-12-19 09:44:24:919 355 sec: 10000000 operations; 26932.45 current ops/sec; [CLEANUP: Count=99, Max=6715, Min=0, Avg=68.8, 90=2, 99=2, 99.9=6715, 99.99=6715] [INSERT: Count=151899, Max=534527, Min=6, Avg=2797.08, 90=14, 99=86271, 99.9=436223, 99.99=512511] 
+[OVERALL], RunTime(ms), 355641
+[OVERALL], Throughput(ops/sec), 28118.24283476877
+[TOTAL_GCS_PS_Scavenge], Count, 265
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 1719
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.48335259432967514
+[TOTAL_GCS_PS_MarkSweep], Count, 25
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 631
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.17742611228739094
+[TOTAL_GCs], Count, 290
+[TOTAL_GC_TIME], Time(ms), 2350
+[TOTAL_GC_TIME_%], Time(%), 0.6607787066170661
+[CLEANUP], Operations, 100
+[CLEANUP], AverageLatency(us), 68.17
+[CLEANUP], MinLatency(us), 0
+[CLEANUP], MaxLatency(us), 6715
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 6
+[INSERT], Operations, 10000000
+[INSERT], AverageLatency(us), 3534.8007156
+[INSERT], MinLatency(us), 6
+[INSERT], MaxLatency(us), 3422207
+[INSERT], 95thPercentileLatency(us), 22
+[INSERT], 99thPercentileLatency(us), 43455
+[INSERT], Return=OK, 100000
+[INSERT], Return=BATCHED_OK, 9900000

@@ -1,0 +1,33 @@
+{
+  "administratorLogin": "benchant",
+  "earliestRestoreDate": "2023-02-08T14:10:51.333000+00:00",
+  "fullyQualifiedDomainName": "benchant-87a6fa76-b776-565b-8d53-ab2ecf580bf1.mariadb.database.azure.com",
+  "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.DBforMariaDB/servers/benchant-87a6fa76-b776-565b-8d53-ab2ecf580bf1",
+  "location": "westus",
+  "masterServerId": "",
+  "minimalTlsVersion": "TLSEnforcementDisabled",
+  "name": "benchant-87a6fa76-b776-565b-8d53-ab2ecf580bf1",
+  "privateEndpointConnections": [],
+  "publicNetworkAccess": "Enabled",
+  "replicaCapacity": 5,
+  "replicationRole": "None",
+  "resourceGroup": "benchANT-westus",
+  "sku": {
+    "capacity": 8,
+    "family": "Gen5",
+    "name": "MO_Gen5_8",
+    "size": null,
+    "tier": "MemoryOptimized"
+  },
+  "sslEnforcement": "Disabled",
+  "storageProfile": {
+    "backupRetentionDays": 7,
+    "geoRedundantBackup": "Disabled",
+    "storageAutogrow": "Enabled",
+    "storageMb": 1024000
+  },
+  "tags": null,
+  "type": "Microsoft.DBforMariaDB/servers",
+  "userVisibleState": "Ready",
+  "version": "10.3"
+}

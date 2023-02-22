@@ -1,0 +1,62 @@
+{
+  "administratorLogin": "benchant",
+  "administratorLoginPassword": null,
+  "availabilityZone": "2",
+  "backup": {
+    "backupRetentionDays": 7,
+    "earliestRestoreDate": "2023-02-06T17:08:13.523752+00:00",
+    "geoRedundantBackup": "Disabled"
+  },
+  "createMode": null,
+  "dataEncryption": null,
+  "fullyQualifiedDomainName": "benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4.mysql.database.azure.com",
+  "highAvailability": {
+    "mode": "SameZone",
+    "standbyAvailabilityZone": "2",
+    "state": "Healthy"
+  },
+  "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-eastus/providers/Microsoft.DBforMySQL/flexibleServers/benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4",
+  "identity": null,
+  "location": "East US",
+  "maintenanceWindow": {
+    "customWindow": "Disabled",
+    "dayOfWeek": 0,
+    "startHour": 0,
+    "startMinute": 0
+  },
+  "name": "benchant-42ecae90-83e6-5395-bbc2-7a335fdec8a4",
+  "network": {
+    "delegatedSubnetResourceId": null,
+    "privateDnsZoneResourceId": null,
+    "publicNetworkAccess": "Enabled"
+  },
+  "replicaCapacity": 10,
+  "replicationRole": "None",
+  "resourceGroup": "benchANT-eastus",
+  "restorePointInTime": null,
+  "sku": {
+    "name": "Standard_E8ds_v4",
+    "tier": "MemoryOptimized"
+  },
+  "sourceServerResourceId": null,
+  "state": "Ready",
+  "storage": {
+    "autoGrow": "Enabled",
+    "autoIoScaling": "Disabled",
+    "iops": 3372,
+    "logOnDisk": "Disabled",
+    "storageSizeGb": 1024,
+    "storageSku": "Premium_LRS"
+  },
+  "systemData": {
+    "createdAt": "2023-02-06T17:02:04.956367+00:00",
+    "createdBy": null,
+    "createdByType": null,
+    "lastModifiedAt": null,
+    "lastModifiedBy": null,
+    "lastModifiedByType": null
+  },
+  "tags": null,
+  "type": "Microsoft.DBforMySQL/flexibleServers",
+  "version": "8.0.21"
+}

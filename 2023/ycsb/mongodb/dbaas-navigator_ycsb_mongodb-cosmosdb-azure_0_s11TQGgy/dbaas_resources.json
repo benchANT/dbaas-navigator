@@ -1,0 +1,62 @@
+{
+    "accounts": [
+        {
+            "consistency_policy": {
+                "default_consistency_level": "session",
+                "max_interval_in_seconds": 5,
+                "max_staleness_prefix": 100
+            },
+            "database_account_offer_type": "Standard",
+            "document_endpoint": "https://d9bf1741-2ccd-56b7-84fd-1d1dfcb876e4.documents.azure.com:443/",
+            "enable_automatic_failover": false,
+            "enable_cassandra": false,
+            "enable_gremlin": false,
+            "enable_multiple_write_locations": false,
+            "enable_table": false,
+            "failover_policies": [
+                {
+                    "failover_priority": 0,
+                    "id": "d9bf1741-2ccd-56b7-84fd-1d1dfcb876e4-westus",
+                    "name": "westus"
+                }
+            ],
+            "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.DocumentDB/databaseAccounts/d9bf1741-2ccd-56b7-84fd-1d1dfcb876e4",
+            "ip_range_filter": "0.0.0.0",
+            "is_virtual_network_filter_enabled": false,
+            "kind": "mongo_db",
+            "location": "westus",
+            "name": "d9bf1741-2ccd-56b7-84fd-1d1dfcb876e4",
+            "primary_master_key": "JZIWwNZWNDQyaRHQTAZIoC2n7mVoezvtmWHZq7gzjoSqFmuJ0iRAwIEc65Ysk0VEI0XqCTBM1JoKACDbxKyy5w==",
+            "primary_readonly_master_key": "uiN3K6ew2mnb11bawc8lcl2DdMEeDCxAsgrcuiIosCdSLnSfeo1uUCNNjDIfCJchuusNgkWonp9dACDbv5j1ZA==",
+            "provisioning_state": "Succeeded",
+            "read_locations": [
+                {
+                    "document_endpoint": "https://d9bf1741-2ccd-56b7-84fd-1d1dfcb876e4-westus.documents.azure.com:443/",
+                    "failover_priority": 0,
+                    "id": "d9bf1741-2ccd-56b7-84fd-1d1dfcb876e4-westus",
+                    "name": "westus",
+                    "provisioning_state": "Succeeded"
+                }
+            ],
+            "resource_group": "benchANT-westus",
+            "secondary_master_key": "aDJHqrirFHYmHNRu02BDGsDgXPyJvNXT7HQtuOwGGtHa6KgT0zizpJCDDDj98a1dlvZj9ybA26IoACDbyQy68A==",
+            "secondary_readonly_master_key": "PwAOKD39DubPtTaPluNaY3xHxZOAeDS8KPvSctfR9uVg7ikHkBQKnRVEy5mq2uxgE8KroGNnNh0lACDbeRrFVg==",
+            "tags": {},
+            "virtual_network_rules": [],
+            "write_locations": [
+                {
+                    "document_endpoint": "https://d9bf1741-2ccd-56b7-84fd-1d1dfcb876e4-westus.documents.azure.com:443/",
+                    "failover_priority": 0,
+                    "id": "d9bf1741-2ccd-56b7-84fd-1d1dfcb876e4-westus",
+                    "name": "westus",
+                    "provisioning_state": "Succeeded"
+                }
+            ]
+        }
+    ],
+    "changed": false,
+    "failed": false,
+    "warnings": [
+        "Azure API profile latest does not define an entry for CosmosDB"
+    ]
+}

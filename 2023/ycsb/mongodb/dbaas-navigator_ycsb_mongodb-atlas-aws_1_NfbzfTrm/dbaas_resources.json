@@ -1,0 +1,118 @@
+{
+    "attempts": 13,
+    "changed": false,
+    "connection": "close",
+    "content_length": "3099",
+    "content_type": "application/json",
+    "cookies": {},
+    "cookies_string": "",
+    "date": "Mon, 19 Dec 2022 09:30:27 GMT",
+    "elapsed": 0,
+    "failed": false,
+    "json": {
+        "autoScaling": {
+            "autoIndexingEnabled": false,
+            "compute": {
+                "enabled": false,
+                "scaleDownEnabled": false
+            },
+            "diskGBEnabled": false
+        },
+        "backupEnabled": false,
+        "biConnector": {
+            "enabled": false,
+            "readPreference": "secondary"
+        },
+        "clusterType": "REPLICASET",
+        "connectionStrings": {
+            "standard": "mongodb://benchant-cluster-shard-00-00.qom1z.mongodb.net:27017,benchant-cluster-shard-00-01.qom1z.mongodb.net:27017,benchant-cluster-shard-00-02.qom1z.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-s50del-shard-0",
+            "standardSrv": "mongodb+srv://benchant-cluster.qom1z.mongodb.net"
+        },
+        "createDate": "2022-12-19T09:24:07Z",
+        "diskSizeGB": 2000.0,
+        "encryptionAtRestProvider": "NONE",
+        "groupId": "63a02db4d9760e1ae99e1431",
+        "id": "63a02db7a9dcd236f68b1318",
+        "labels": [],
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63a02db4d9760e1ae99e1431/clusters/benchANT-cluster",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63a02db4d9760e1ae99e1431/clusters/benchANT-cluster/backup/restoreJobs",
+                "rel": "https://cloud.mongodb.com/restoreJobs"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63a02db4d9760e1ae99e1431/clusters/benchANT-cluster/backup/snapshots",
+                "rel": "https://cloud.mongodb.com/snapshots"
+            }
+        ],
+        "mongoDBMajorVersion": "6.0",
+        "mongoDBVersion": "6.0.3",
+        "mongoURI": "mongodb://benchant-cluster-shard-00-00.qom1z.mongodb.net:27017,benchant-cluster-shard-00-01.qom1z.mongodb.net:27017,benchant-cluster-shard-00-02.qom1z.mongodb.net:27017",
+        "mongoURIUpdated": "2022-12-19T09:30:17Z",
+        "mongoURIWithOptions": "mongodb://benchant-cluster-shard-00-00.qom1z.mongodb.net:27017,benchant-cluster-shard-00-01.qom1z.mongodb.net:27017,benchant-cluster-shard-00-02.qom1z.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-s50del-shard-0",
+        "name": "benchANT-cluster",
+        "numShards": 1,
+        "paused": false,
+        "pitEnabled": false,
+        "providerBackupEnabled": false,
+        "providerSettings": {
+            "autoScaling": {
+                "compute": {
+                    "maxInstanceSize": null,
+                    "minInstanceSize": null
+                }
+            },
+            "diskIOPS": 6000,
+            "encryptEBSVolume": true,
+            "instanceSizeName": "M50",
+            "providerName": "AWS",
+            "regionName": "US_WEST_1",
+            "volumeType": "STANDARD"
+        },
+        "replicationFactor": 3,
+        "replicationSpec": {
+            "US_WEST_1": {
+                "analyticsNodes": 0,
+                "electableNodes": 3,
+                "priority": 7,
+                "readOnlyNodes": 0
+            }
+        },
+        "replicationSpecs": [
+            {
+                "id": "63a02db7a9dcd236f68b1310",
+                "numShards": 1,
+                "regionsConfig": {
+                    "US_WEST_1": {
+                        "analyticsNodes": 0,
+                        "electableNodes": 3,
+                        "priority": 7,
+                        "readOnlyNodes": 0
+                    }
+                },
+                "zoneName": "Zone 1"
+            }
+        ],
+        "rootCertType": "ISRGROOTX1",
+        "srvAddress": "mongodb+srv://benchant-cluster.qom1z.mongodb.net",
+        "stateName": "IDLE",
+        "terminationProtectionEnabled": false,
+        "versionReleaseSystem": "LTS"
+    },
+    "msg": "OK (3099 bytes)",
+    "redirected": false,
+    "referrer_policy": "strict-origin-when-cross-origin",
+    "server": "envoy",
+    "status": 200,
+    "strict_transport_security": "max-age=31536000; includeSubdomains;",
+    "url": "https://cloud.mongodb.com/api/atlas/v1.0/groups/63a02db4d9760e1ae99e1431/clusters/benchANT-cluster?pretty=true",
+    "vary": "Accept-Encoding",
+    "x_content_type_options": "nosniff",
+    "x_envoy_upstream_service_time": "41",
+    "x_frame_options": "DENY",
+    "x_mongodb_service_version": "gitHash=4eef7f3cf22211060bd55ad41795816a94a7b145; versionString=v20221214",
+    "x_permitted_cross_domain_policies": "none"
+}

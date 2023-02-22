@@ -1,0 +1,257 @@
+{
+    "changed": true,
+    "msg": "All items completed",
+    "results": [
+        {
+            "ansible_facts": {
+                "azure_vm": {
+                    "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Compute/virtualMachines/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-0",
+                    "location": "westus",
+                    "name": "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-0",
+                    "powerstate": "running",
+                    "properties": {
+                        "hardwareProfile": {
+                            "vmSize": "Standard_D16s_v5"
+                        },
+                        "instanceView": {
+                            "disks": [
+                                {
+                                    "name": "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-0",
+                                    "statuses": [
+                                        {
+                                            "code": "ProvisioningState/succeeded",
+                                            "displayStatus": "Provisioning succeeded",
+                                            "level": "Info",
+                                            "time": "2023-02-07T14:59:08.702824Z"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "hyperVGeneration": "V1",
+                            "statuses": [
+                                {
+                                    "code": "ProvisioningState/succeeded",
+                                    "displayStatus": "Provisioning succeeded",
+                                    "level": "Info",
+                                    "time": "2023-02-07T14:59:53.125135Z"
+                                },
+                                {
+                                    "code": "PowerState/running",
+                                    "displayStatus": "VM running",
+                                    "level": "Info"
+                                }
+                            ],
+                            "vmAgent": {
+                                "statuses": [
+                                    {
+                                        "code": "ProvisioningState/Unavailable",
+                                        "displayStatus": "Not Ready",
+                                        "level": "Warning",
+                                        "message": "VM status blob is found but not yet populated.",
+                                        "time": "2023-02-07T14:59:54.000Z"
+                                    }
+                                ],
+                                "vmAgentVersion": "Unknown"
+                            }
+                        },
+                        "networkProfile": {
+                            "networkInterfaces": [
+                                {
+                                    "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Network/networkInterfaces/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-nic-0",
+                                    "name": "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-nic-0",
+                                    "properties": {
+                                        "dnsSettings": {
+                                            "appliedDnsServers": [],
+                                            "dnsServers": [],
+                                            "internalDomainNameSuffix": "regm3jqqasou1jztmds5juuraa.dx.internal.cloudapp.net"
+                                        },
+                                        "enableAcceleratedNetworking": false,
+                                        "enableIPForwarding": false,
+                                        "hostedWorkloads": [],
+                                        "ipConfigurations": [
+                                            {
+                                                "etag": "W/\"5d3ff854-f372-49b9-9a16-c0df7737581d\"",
+                                                "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Network/networkInterfaces/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-nic-0/ipConfigurations/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-config-0",
+                                                "name": "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-config-0",
+                                                "properties": {
+                                                    "primary": true,
+                                                    "privateIPAddress": "10.10.0.16",
+                                                    "privateIPAddressVersion": "IPv4",
+                                                    "privateIPAllocationMethod": "Dynamic",
+                                                    "provisioningState": "Succeeded",
+                                                    "publicIPAddress": {
+                                                        "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Network/publicIPAddresses/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-publicIp-0",
+                                                        "name": "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-publicIp-0",
+                                                        "properties": {
+                                                            "idleTimeoutInMinutes": 4,
+                                                            "ipAddress": "20.59.114.19",
+                                                            "ipConfiguration": {
+                                                                "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Network/networkInterfaces/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-nic-0/ipConfigurations/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-config-0"
+                                                            },
+                                                            "ipTags": [],
+                                                            "provisioningState": "Succeeded",
+                                                            "publicIPAddressVersion": "IPv4",
+                                                            "publicIPAllocationMethod": "Dynamic",
+                                                            "resourceGuid": "05231c8c-30ad-4a9c-9fe5-1be4c0291449"
+                                                        }
+                                                    },
+                                                    "subnet": {
+                                                        "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Network/virtualNetworks/benchant-network/subnets/benchant-subnet"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "macAddress": "00-0D-3A-38-03-D6",
+                                        "networkSecurityGroup": {
+                                            "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Network/networkSecurityGroups/benchant-benchmark"
+                                        },
+                                        "primary": true,
+                                        "provisioningState": "Succeeded",
+                                        "resourceGuid": "27ee9076-a0bc-4534-9dfa-6becd8b5af34",
+                                        "tapConfigurations": [],
+                                        "virtualMachine": {
+                                            "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Compute/virtualMachines/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-0"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "osProfile": {
+                            "adminUsername": "ubuntu",
+                            "allowExtensionOperations": true,
+                            "computerName": "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-0",
+                            "linuxConfiguration": {
+                                "disablePasswordAuthentication": true,
+                                "provisionVMAgent": true,
+                                "ssh": {
+                                    "publicKeys": [
+                                        {
+                                            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCatS9zj88mBY5uQVpJyVOV94t72AyjcKke2DTsRokt3jQBWWRfKNNzyzaJRNZolOy18RwDfGQF3iZ+CGi3DphDy4yv+dES7qjTvdibJSd56xwI7OAgTnE2zpn/P84gofvARckGqV0wD38cssopVy7DtsK3H4LYpqh75FaKA2nnyKb37fHlBWnyeapl04528kEnzOzgTVL0AjfYTjci4JJASYLdoGKR6F3xqbmzNnWY5as3cu7vuQzE+jYEDi0rttXw9UB6+m4EhM6yJS8YZ2V7zcQhpSo2km1YQqEcjTlvW9BhWZmNMRLtEeBv+Jq3KdnrQ+jbk5SmNqSK7DOtkgJH Generated-by-Nova",
+                                            "path": "/home/ubuntu/.ssh/authorized_keys"
+                                        }
+                                    ]
+                                }
+                            },
+                            "requireGuestProvisionSignal": true,
+                            "secrets": []
+                        },
+                        "provisioningState": "Succeeded",
+                        "storageProfile": {
+                            "dataDisks": [],
+                            "imageReference": {
+                                "offer": "0001-com-ubuntu-server-focal",
+                                "publisher": "Canonical",
+                                "sku": "20_04-lts",
+                                "version": "20.04.202301130"
+                            },
+                            "osDisk": {
+                                "caching": "ReadOnly",
+                                "createOption": "FromImage",
+                                "diskSizeGB": 50,
+                                "managedDisk": {
+                                    "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-westus/providers/Microsoft.Compute/disks/benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-0",
+                                    "storageAccountType": "Standard_LRS"
+                                },
+                                "name": "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-0",
+                                "osType": "Linux"
+                            }
+                        },
+                        "vmId": "9ccfd7c3-5d17-497f-bdca-757a5c91a98f"
+                    },
+                    "tags": {
+                        "service": "benchant",
+                        "type": "benchmark-api"
+                    },
+                    "type": "Microsoft.Compute/virtualMachines"
+                }
+            },
+            "ansible_loop_var": "item",
+            "changed": true,
+            "failed": false,
+            "invocation": {
+                "module_args": {
+                    "accept_terms": false,
+                    "ad_user": null,
+                    "adfs_authority_url": null,
+                    "admin_password": null,
+                    "admin_username": "ubuntu",
+                    "allocated": true,
+                    "api_profile": "latest",
+                    "append_tags": true,
+                    "auth_source": "auto",
+                    "availability_set": null,
+                    "boot_diagnostics": null,
+                    "cert_validation_mode": null,
+                    "client_id": null,
+                    "cloud_environment": "AzureCloud",
+                    "custom_data": null,
+                    "data_disks": null,
+                    "ephemeral_os_disk": null,
+                    "eviction_policy": null,
+                    "generalized": false,
+                    "image": {
+                        "offer": "0001-com-ubuntu-server-focal",
+                        "publisher": "Canonical",
+                        "sku": "20_04-lts",
+                        "version": "20.04.202301130"
+                    },
+                    "license_type": null,
+                    "location": null,
+                    "log_mode": null,
+                    "log_path": null,
+                    "managed_disk_type": "Standard_LRS",
+                    "max_price": -1.0,
+                    "name": "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-0",
+                    "network_interface_names": [
+                        "benchANT-benchmark-0354685a-70f2-553c-9345-9ae3ae153c23-nic-0"
+                    ],
+                    "open_ports": null,
+                    "os_disk_caching": null,
+                    "os_disk_name": null,
+                    "os_disk_size_gb": 50,
+                    "os_type": "Linux",
+                    "password": null,
+                    "plan": null,
+                    "priority": null,
+                    "profile": null,
+                    "proximity_placement_group": null,
+                    "public_ip_allocation_method": "Static",
+                    "remove_on_absent": [
+                        "all"
+                    ],
+                    "resource_group": "benchANT-westus",
+                    "restarted": false,
+                    "secret": null,
+                    "short_hostname": null,
+                    "ssh_password_enabled": false,
+                    "ssh_public_keys": [
+                        {
+                            "key_data": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCatS9zj88mBY5uQVpJyVOV94t72AyjcKke2DTsRokt3jQBWWRfKNNzyzaJRNZolOy18RwDfGQF3iZ+CGi3DphDy4yv+dES7qjTvdibJSd56xwI7OAgTnE2zpn/P84gofvARckGqV0wD38cssopVy7DtsK3H4LYpqh75FaKA2nnyKb37fHlBWnyeapl04528kEnzOzgTVL0AjfYTjci4JJASYLdoGKR6F3xqbmzNnWY5as3cu7vuQzE+jYEDi0rttXw9UB6+m4EhM6yJS8YZ2V7zcQhpSo2km1YQqEcjTlvW9BhWZmNMRLtEeBv+Jq3KdnrQ+jbk5SmNqSK7DOtkgJH Generated-by-Nova",
+                            "path": "/home/ubuntu/.ssh/authorized_keys"
+                        }
+                    ],
+                    "started": true,
+                    "state": "present",
+                    "storage_account_name": null,
+                    "storage_blob_name": null,
+                    "storage_container_name": "vhds",
+                    "subnet_name": null,
+                    "subscription_id": null,
+                    "tags": {
+                        "service": "benchant",
+                        "type": "benchmark-api"
+                    },
+                    "tenant": null,
+                    "virtual_network_name": null,
+                    "virtual_network_resource_group": null,
+                    "vm_identity": null,
+                    "vm_size": "Standard_D16s_v5",
+                    "winrm": null,
+                    "zones": null
+                }
+            },
+            "item": 0,
+            "powerstate_change": null
+        }
+    ]
+}
