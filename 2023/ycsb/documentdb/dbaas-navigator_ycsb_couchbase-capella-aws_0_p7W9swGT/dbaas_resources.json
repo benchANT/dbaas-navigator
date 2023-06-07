@@ -1,0 +1,17 @@
+{
+    "changed": false,
+    "connection": "close",
+    "content_length": "0",
+    "content_type": "application/json",
+    "cookies": {},
+    "cookies_string": "",
+    "date": "Tue, 25 Apr 2023 08:02:07 GMT",
+    "elapsed": 1,
+    "failed": false,
+    "location": "https://cloudapi.cloud.couchbase.com/v3/clusters/c47d8d49-fe08-48d4-a013-f9e3d9f0a32b",
+    "msg": "OK (0 bytes)",
+    "redirected": false,
+    "status": 202,
+    "strict_transport_security": "max-age=15724800; includeSubDomains",
+    "url": "https://cloudapi.cloud.couchbase.com/v3/clusters"
+}

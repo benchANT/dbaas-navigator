@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "userId": "benchANT",
+    "projectId": "dbaas-navigator",
+    "batchId": "ycsb",
+    "configurationId": "couchbase-capella-aws",
+    "configurationLabel": "couchbase-capella-aws",
+    "executions": 1,
+    "executionCounter": 1
+  },
+  "resourceProvider": {
+    "name": "EC2",
+    "api": "EC2"
+  },
+  "dbaasProvider": {
+    "name": "CAPELLA",
+    "api": "CAPELLA"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "COUCHBASE",
+    "operationType": "DBAAS",
+    "version": "7.1.3",
+    "DBAAS": {
+      "costs": {
+        "storageCosts": 0.0,
+        "vmCosts": 2876.6
+      },
+      "capellaInstance": {
+        "provider": "AWS",
+        "region": "us-west-2",
+        "singleAZ": false,
+        "nodes": 3,
+        "flavor": "m5.2xlarge",
+        "storageType": "GP3",
+        "storageIops": 3000,
+        "storageSize": 700,
+        "services": [
+          "data",
+          "index",
+          "query",
+          "search"
+        ]
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 1,
+      "resource": {
+        "ec2Vm": {
+          "regionName": "us-west-2",
+          "instanceType": "c5.4xlarge",
+          "architecture": "x86_64",
+          "imageDistribution": "ubuntu",
+          "imageVersion": "20.04",
+          "volumeType": "GP2",
+          "volumeSize": 30,
+          "iops": 100
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "YCSB-Read-Write-Mix",
+    "distribution": "YCSB",
+    "version": "couchbaselabs",
+    "ycsb": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadType": "LOAD",
+        "workloadClass": "site.ycsb.workloads.CoreWorkload",
+        "maxExecutionTime": 1800,
+        "threadCount": 100,
+        "recordCount": 10000000,
+        "insertStart": 10000000,
+        "insertCount": 0,
+        "operations": 54000000,
+        "targetOps": 0,
+        "fieldCount": 10,
+        "fieldLength": 500,
+        "readAllFileds": true,
+        "readModifyWriteProportion": 0,
+        "requestdistribution": "ZIPFIAN",
+        "hotspotDataFraction": 0.2,
+        "hotspotOpnFraction": 0.8,
+        "scanLengthDistribution": "UNIFORM",
+        "insertOrder": "ORDERED",
+        "readProportion": 0.5,
+        "updateProportion": 0.0,
+        "insertProportion": 0.5,
+        "scanProportion": 0.0,
+        "maxScanLength": 0,
+        "coreWorkloadInsertionRetryLimit": 3,
+        "coreWorkloadInsertionRetryInterval": 3,
+        "loadBatchSize": 1,
+        "runBatchSize": 1
+      }
+    }
+  }
+}
