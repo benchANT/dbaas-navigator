@@ -71,3 +71,21 @@
 | Read Stability (Variance) [%]       | 2         | `> 5 %`  🟰 **0** <br> > `2.5 % AND < 5 %`  🟰 **1** <br> > `< 2.5 % `  🟰 **2**                                                                                                                    | variance of at least three measurements                      |
 | Write Stability (Variance) [%]      | 2         | `> 5 %`  🟰 **0** <br> > `2.5 % AND < 5 %`  🟰 **1** <br> > `< 2.5 % `  🟰 **2**                                                                                                                    | variance of at least three measurements                      |
 | Deployment Time [h]                 | 2         | `>1h OR manual steps required`  🟰 **0** <br> `< 1h`  🟰 **1** <br> `< 30 minutes`  🟰 **2** <br> `< 15 minutes`  🟰 **3** <br> `< 10 minutes`  🟰 **4** <br> `< 5 minutes`  🟰 **5**               | time required to automatically deploy a ready-to-use cluster |
+
+## Pricing
+
+| Attribute                              | Max Score | Scoring                                                                                                      | Description                                    |
+|----------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| Performance / Costs [ops/s / $/month]  | 5         | [benchANT score](https://benchant.com/blog/benchant-score)                                                   | relative score over all available measurements |
+| Monthly Costs [$]                      | 5         | [benchANT score](https://benchant.com/blog/benchant-score)                                                   | relative score over all available measurements |
+| Resource Costs (monthly) [$]           | n/a       | n/a                                                                                                          | not scored                                     |
+| Storage Costs (monthly) [$]            | n/a       | n/a                                                                                                          | not scored                                     |
+| Backup Costs (monthly) [$]             | n/a       | n/a                                                                                                          | not scored                                     |
+| Network Traffic Costs (monthly) [$]    | n/a       | n/a                                                                                                          | not scored                                     |
+| Support Costs - Basic (monthly) [$]    | n/a       | n/a                                                                                                          | not scored                                     |
+| Pricing Model                          | 2         | `day`  🟰 **0** <br> > `hour`  🟰 **1** <br> > `Minute/Operations-based/Serverless / Auto-Scaling`  🟰 **2** | n/a                                            |
+| Network Cost Details                   | 2         | `> $0.01 per GB`  🟰 **0** <br> > `partly included`  🟰 **1** <br> > `included`  🟰 **2**                    | n/a                                            |
+| Payment Options                        | n/a       | n/a                                                                                                          | not scored                                     |
+| Payment Terms                          | n/a       | n/a                                                                                                          | not scored                                     |
+| Termination Terms                      | n/a       | n/a                                                                                                          | not scored                                     |
+| Discount Programs                      | 3         | `1 discount program`  🟰 1 point                                                                             | 1 point per discount program                   |
