@@ -20,7 +20,15 @@
                     {
                         "featureData": 64,
                         "featureKey": "writeLatency",
-                        "featureScore": 3
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "updateLatency"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatency"
                     },
                     {
                         "featureData": 4.2,
@@ -38,6 +46,14 @@
                         "featureScore": 2
                     },
                     {
+                        "featureData": NaN,
+                        "featureKey": "updateLatencyVariance"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatencyVariance"
+                    },
+                    {
                         "featureData": 5.75,
                         "featureKey": "performancePerCostsMonthly",
                         "featureScore": 5
@@ -46,6 +62,16 @@
                         "featureData": 997.01,
                         "featureKey": "costsMonthly",
                         "featureScore": 5
+                    },
+                    {
+                        "featureData": 3.4,
+                        "featureKey": "deploymentTime",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "deploymentTimeStd",
+                        "featureScore": 0
                     }
                 ]
             }
@@ -75,6 +101,14 @@
                         "featureScore": 5
                     },
                     {
+                        "featureData": NaN,
+                        "featureKey": "updateLatency"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatency"
+                    },
+                    {
                         "featureData": 2.7,
                         "featureKey": "throughputVariance",
                         "featureScore": 2
@@ -90,6 +124,14 @@
                         "featureScore": 2
                     },
                     {
+                        "featureData": NaN,
+                        "featureKey": "updateLatencyVariance"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatencyVariance"
+                    },
+                    {
                         "featureData": 4.4,
                         "featureKey": "performancePerCostsMonthly",
                         "featureScore": 5
@@ -98,6 +140,16 @@
                         "featureData": 2013.69,
                         "featureKey": "costsMonthly",
                         "featureScore": 3
+                    },
+                    {
+                        "featureData": 16.1,
+                        "featureKey": "deploymentTime",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 0.5,
+                        "featureKey": "deploymentTimeStd",
+                        "featureScore": 0
                     }
                 ]
             },
@@ -118,7 +170,15 @@
                     {
                         "featureData": 63,
                         "featureKey": "writeLatency",
-                        "featureScore": 3
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "updateLatency"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatency"
                     },
                     {
                         "featureData": 3.3,
@@ -136,14 +196,32 @@
                         "featureScore": 2
                     },
                     {
+                        "featureData": NaN,
+                        "featureKey": "updateLatencyVariance"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatencyVariance"
+                    },
+                    {
                         "featureData": 2.69,
                         "featureKey": "performancePerCostsMonthly",
-                        "featureScore": 2
+                        "featureScore": 3
                     },
                     {
                         "featureData": 2013.69,
                         "featureKey": "costsMonthly",
                         "featureScore": 3
+                    },
+                    {
+                        "featureData": 15.8,
+                        "featureKey": "deploymentTime",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 0.5,
+                        "featureKey": "deploymentTimeStd",
+                        "featureScore": 0
                     }
                 ]
             }
@@ -173,6 +251,14 @@
                         "featureScore": 0
                     },
                     {
+                        "featureData": NaN,
+                        "featureKey": "updateLatency"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatency"
+                    },
+                    {
                         "featureData": 1.7,
                         "featureKey": "throughputVariance",
                         "featureScore": 2
@@ -188,6 +274,14 @@
                         "featureScore": 2
                     },
                     {
+                        "featureData": NaN,
+                        "featureKey": "updateLatencyVariance"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatencyVariance"
+                    },
+                    {
                         "featureData": 1.96,
                         "featureKey": "performancePerCostsMonthly",
                         "featureScore": 0
@@ -196,6 +290,16 @@
                         "featureData": 1978.83,
                         "featureKey": "costsMonthly",
                         "featureScore": 3
+                    },
+                    {
+                        "featureData": 20.6,
+                        "featureKey": "deploymentTime",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 1.7,
+                        "featureKey": "deploymentTimeStd",
+                        "featureScore": 0
                     }
                 ]
             }
@@ -225,6 +329,14 @@
                         "featureScore": 5
                     },
                     {
+                        "featureData": NaN,
+                        "featureKey": "updateLatency"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatency"
+                    },
+                    {
                         "featureData": 2.4,
                         "featureKey": "throughputVariance",
                         "featureScore": 2
@@ -240,6 +352,14 @@
                         "featureScore": 2
                     },
                     {
+                        "featureData": NaN,
+                        "featureKey": "updateLatencyVariance"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatencyVariance"
+                    },
+                    {
                         "featureData": 2.94,
                         "featureKey": "performancePerCostsMonthly",
                         "featureScore": 3
@@ -247,6 +367,94 @@
                     {
                         "featureData": 2828.4,
                         "featureKey": "costsMonthly",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 22.6,
+                        "featureKey": "deploymentTime",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "deploymentTimeStd",
+                        "featureScore": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dbaasProvider": "PLANETSCALE",
+        "benchmark": "YCSB-Read-Write-Mix",
+        "options": [
+            {
+                "iaasProvider": "EC2",
+                "dbmsType": "MYSQL",
+                "properties": [
+                    {
+                        "featureData": 5678,
+                        "featureKey": "throughput",
+                        "featureScore": 3
+                    },
+                    {
+                        "featureData": 17,
+                        "featureKey": "readLatency",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 50,
+                        "featureKey": "writeLatency",
+                        "featureScore": 4
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "updateLatency"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatency"
+                    },
+                    {
+                        "featureData": 2.1,
+                        "featureKey": "throughputVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 7.5,
+                        "featureKey": "readLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": 2.0,
+                        "featureKey": "writeLatencyVariance",
+                        "featureScore": 2
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "updateLatencyVariance"
+                    },
+                    {
+                        "featureData": NaN,
+                        "featureKey": "scanLatencyVariance"
+                    },
+                    {
+                        "featureData": 1.63,
+                        "featureKey": "performancePerCostsMonthly",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 3484.0,
+                        "featureKey": "costsMonthly",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 5.1,
+                        "featureKey": "deploymentTime",
+                        "featureScore": 0
+                    },
+                    {
+                        "featureData": 0.0,
+                        "featureKey": "deploymentTimeStd",
                         "featureScore": 0
                     }
                 ]
